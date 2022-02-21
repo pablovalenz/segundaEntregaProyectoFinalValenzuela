@@ -1,0 +1,303 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*INICIO HEADER*/
+header{
+    background-color: #323037;
+}
+.navbar img{
+    height: 80px;
+    width: 80px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fc8d38;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: wheat;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.navbar-light .navbar-toggler{
+    color: wheat;
+    background-color: wheat;
+}
+.navbar-toggler-icon{
+    color: wheat;
+}
+/*FIN HEADER*/
+
+
+/*INICIO MAIN*/
+
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
+  }
+.carousel-caption h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 43px;
+    text-transform: uppercase;
+    animation: bounceInRight;
+    animation-duration: 3s;
+}
+.carousel-caption p{
+    padding: 20px;
+    font-size: 20px;
+    animation: backInUp;
+    animation-duration: 3s;
+}
+.carousel-caption .btn{
+    color: wheat;
+    border: 1px solid wheat;
+    animation: backInUp;
+    animation-duration: 3s;
+}
+
+/*FIN MAIN*/
+
+/*INICIO SECCION ESPACIO*/
+
+.espacio{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: #ceccca;
+    position: relative;
+}
+.caja1{
+    height: 70%;
+    width: 37%;
+    background-image: url(../img/yoga-header22.JPG);
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    position: absolute; 
+    right: 50%; 
+    top: 40px;
+    z-index: 2;
+    /*animation: backInUp;
+    animation-duration: 3s;*/
+}
+.caja2{
+    height: 70%;
+    width: 60%;
+    background-color: rgb(133, 133, 136);
+    position: absolute; 
+    right: 15%;
+    top: 15%;
+    z-index: 1;
+    overflow: hidden;
+}
+.espacio h2{
+    color: wheat;
+    text-transform: uppercase;
+    width: 40%;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    position: relative;
+    left: 48%;
+    top: 10%;
+    
+}
+.espacio p{
+    font-size: 20px;
+    color: wheat;
+    width: 40%;
+    position: relative;
+    text-align: left;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    left: 48%;
+    top: 15%;
+}
+/*FIN SECCION ESPACIO*/
+
+/*INICIO SECCION 2*/
+.sec2{
+    height: 750px;
+    width: 100%;
+    background-color: #5e5e64;
+    display: flex;
+    flex-direction: column;
+}
+.sec2 h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    position: relative;
+    width: 40%;
+    left: 50%;
+    top: 7%;
+    text-transform: uppercase;
+    color: wheat;
+}
+.sec2 p{
+    font-size: 20px;
+    position: relative;
+    width: 40%;
+    left: 50%;
+    top: 10%;
+    color: wheat;
+}
+.sec2 .imgSec2{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20%;
+}
+.sec2 .img1{
+    padding: 0 10px;
+}
+/*FIN SECCION 2*/
+
+/*INICIO SECCION 3*/
+.sec3{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: #ceccca;
+    position: relative;
+}
+.caja3{
+    height: 70%;
+    width: 60%;
+    background-image: url(../img/yoga-header22.JPG);
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    position: absolute; 
+    right: 30%; 
+    top: 40px;  
+    /*animation: backInUp;
+    animation-duration: 3s;*/
+}
+.caja4{
+    height: 70%;
+    width: 40%;
+    background-color: aliceblue;
+    position: absolute; 
+    right: 15%;
+    top: 15%;
+    z-index: 1;
+    overflow: hidden;
+}
+.sec3 h2{
+    color: #fc8d38;
+    text-transform: uppercase;
+    width: 60%;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    position: relative;
+    left: 25%;
+    top: 10%;
+    
+}
+.sec3 p{
+    font-size: 20px;
+    color: #fc8d38;
+    width: 60%;
+    position: relative;
+    text-align: left;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    left: 25%;
+    top: 15%;
+}
+/*FIN SECCION 3*/
+
+/*INICIO SECCION 4 MASAJE*/
+.sec4{
+    height: 600px;
+    background-image: url(../img/massage.jpg);
+    background-size: cover;
+    background-position: center;
+    color: wheat;
+    text-align: center;
+    justify-content: center;
+}
+.sec4 h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    width: 30%;
+    left: 60%;
+    top: 15%;
+}
+.sec4 p{
+    font-size: 20px;
+    position: relative;
+    width: 30%;
+    left: 60%;
+    top: 20%;
+}
+/*FIN SECCION 4 MASAJE*/
+
+
+/*INICIO SECCION 5 COMENTS*/
+.sec5{
+    height: 500px;
+    width: 100%;
+    background-color: #ceccca;
+    justify-content: center;
+}
+.sec5 .coment1{
+    height: 300px;
+    width: 100%;
+    background-color: #5e5e64;
+}
+/*FIN SECCION 5 COMENTS*/
+
+/*INICIO FOOTER*/
+.secFooter{
+    background-color: #5e5e64;
+    height: 110px;
+}
+.secFooter #contenedor6{
+    display: flex;
+    justify-content: space-between;
+}
+.secFooter img{
+    padding-top: 1%;
+}
+.secFooter ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    padding-top: 1%;
+}
+.secFooter ul li{
+    padding: 1% 1% 0 1%;
+}
+.secFooter ul li a{
+    color: #323037;
+    text-decoration: none;
+}
+.secFooter ul li a:hover{
+    color: wheat;
+}
+.secFooter .diseño .contenidoPie{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.secFooter .diseño .contenidoPie a{
+    text-decoration: none;
+    color: #fc8d38;
+}
+.secFooter .diseño .contenidoPie a:hover{
+    text-decoration: none;
+    color: #ceccca;
+}
+/*FIN FOOTER*/
+
+
