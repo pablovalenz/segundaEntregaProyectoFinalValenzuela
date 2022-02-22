@@ -40,7 +40,6 @@ header{
 
 
 /*INICIO MAIN*/
-
 .carousel-caption {
     transform: translateY(-50%);
     bottom: 0;
@@ -324,19 +323,20 @@ header{
         top: 35%;
     }
     .carousel-caption h1{
-        font-size: 27px;
+        font-size: 23px;
     }
     .carousel-caption p{
-        font-size: 16px;
+        padding: 7px;
+        font-size: 14px;
     }
     .carousel-caption .btn{
         width: 80px;
-        height: 30px;
+        height: 15px;
     }
     .carousel-caption .btn a{
         padding: 7px;
         width: 90px;
-        height: 30px;
+        height: 15px;
         color: wheat;
         text-transform: uppercase;
         border: 1px solid wheat;
@@ -371,27 +371,27 @@ header{
         right: 10%;
     }
     .espacio .caja2 h2{
-        font-size: 22px;
+        font-size: 20px;
         top: 20%;
-        left: 60%;
+        left: 55%;
     }
     .espacio .caja2 p{
         width: 80%;
-        font-size: 16px;
-        top: 35%;
+        font-size: 14px;
+        top: 28%;
         left: 15%;
     }
     .sec2{
-        height: 1700px;
+        height: 900px;
         align-content: center;
     }
     .sec2 h2{
-        font-size: 22px;
+        font-size: 20px;
         left: 35%;
         top: 4%;
     }
     .sec2 p{
-        font-size: 16px;
+        font-size: 14px;
         width: 60%;
         left: 25%;
         top: 5%;
@@ -426,10 +426,14 @@ header{
         top: 15%;
     }
     .sec3 h2{
-        font-size: 22px; 
+        font-size: 20px;
+        top: 4%; 
     }
     .sec3 p{
-        font-size: 16px;
+        font-size: 14px;
+        top: 5%;
+        width: 70%;
+        left: 20%;
     }
 /*+++++FIN SECCION 3+++++*/
 
@@ -437,13 +441,13 @@ header{
 /*+++++INICIO SECCION MASAJES+++++*/
 
 .sec4 h2{
-    font-size: 22px;
+    font-size: 20px;
     width: 30%;
     left: 45%;
     top: 25%;
 }
 .sec4 p{
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     width: 40%;
     left: 40%;
@@ -467,12 +471,7 @@ header{
 /*+++++QUERIES TABLETA+++++*/
 /*+++++QUERIES TABLETA+++++*/
 @media screen and (min-width: 768px){
-    main h1{
-        font-size: 12px;
-    }
-    h2{
-        font-size: 15px;
-    }
+  
 }
 
 
