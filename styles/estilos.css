@@ -39,6 +39,9 @@ header{
 /*FIN HEADER*/
 
 
+/*+++++++++INICIO INDEX+++++++*/
+/*+++++++++INICIO INDEX+++++++*/
+
 /*INICIO MAIN*/
 .carousel-caption {
     transform: translateY(-50%);
@@ -264,17 +267,90 @@ header{
 }
 /*FIN SECCION 5 COMENTS*/
 
+/*+++++++++FIN INDEX+++++++*/
+/*+++++++++FIN INDEX+++++++*/
+
+
+/*+++++++++ INICIO NOSOTROS+++++++*/
+/*+++++++++ INICIO NOSOTROS+++++++*/
+
+.nosotros{
+    padding-top: 15%;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: initial;
+}
+.nosotros .secHistory{
+    padding: 20px;
+    display: flex;
+    height: 40%;
+    width: 40%;
+    background-color: rgba(17, 1, 1, 0.5);
+    justify-content: center;
+    flex-direction: column;
+    color: #fc8d38;
+}
+.secHistory h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.historia{
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fc8d38;
+}
+.imgHistoria{
+    background-color: #5e5e64;
+    background-image: url(../img/advantages-of-yoga1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    width: 60%;
+}
+.historia2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fc8d38;
+}
+.imgHistoria2{
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    width: 60%;
+}
+.textHistoria{
+    width: 80%;
+}
+
+/*+++++++++FIN NOSOTROS+++++++*/
+/*+++++++++FIN NOSOTROS+++++++*/
+
 /*INICIO FOOTER*/
 .secFooter{
     background-color: #5e5e64;
-    height: 150px;
+    height: 200px;
     width: 100%;
 }
 .secFooter #contenedor6{
     display: flex;
     justify-content: center;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 .secFooter img{
     padding-top: 1%;
@@ -455,8 +531,35 @@ header{
 }
 /*+++++FIN SECCION MASAJES+++++*/
 
+/*++++++++++++++FIN+++++++++++++++*/
+/*++++++++++++++INDEX+++++++++++++++*/
+
+
+/*++++++++++++++++INICIO NOSOTROS+++++++++++*/
+.nosotros{
+padding-top: 7%;
+height: 350px;
+text-align: center;
+justify-content: center;
+}
+.nosotros .secHistory{
+padding: 10px;
+height: 80%;
+width: 70%;
+}
+.secHistory h2{
+    font-size: 20px;
+text-transform: uppercase;
+padding-bottom: 10px;
+}
+.secHistory p{
+    font-size: 14px;
+}
+/*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
+
     /*+++++SECCION FOOTER+++++*/
     .secFooter{
+        height: 150px;
         display: block;
         flex-direction: column;
     }
