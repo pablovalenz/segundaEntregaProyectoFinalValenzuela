@@ -6,6 +6,10 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
 }
 
 
@@ -42,7 +46,7 @@ header{
     bottom: 0;
     top: 50%;
   }
-.carousel-caption h5{
+.carousel-caption h1{
     font-family: 'Playfair Display', serif;
     font-size: 43px;
     text-transform: uppercase;
@@ -57,9 +61,15 @@ header{
 }
 .carousel-caption .btn{
     color: wheat;
-    border: 1px solid wheat;
+    border: none;
     animation: backInUp;
     animation-duration: 3s;
+}
+.carousel-caption .btn a{
+    text-transform: uppercase;
+    color: wheat;
+    padding: 20px;
+    border: 1px solid wheat;
 }
 
 /*FIN MAIN*/
@@ -76,7 +86,7 @@ header{
 .caja1{
     height: 70%;
     width: 37%;
-    background-image: url(../img/yoga-header22.JPG);
+    background-image: url(../img/bg2.jpg);
     background-color: aqua;
     background-size: cover;
     background-position: center;
@@ -97,7 +107,7 @@ header{
     z-index: 1;
     overflow: hidden;
 }
-.espacio h2{
+.espacio .caja2 h2{
     color: wheat;
     text-transform: uppercase;
     width: 40%;
@@ -107,7 +117,6 @@ header{
     position: relative;
     left: 48%;
     top: 10%;
-    
 }
 .espacio p{
     font-size: 20px;
@@ -123,7 +132,7 @@ header{
 
 /*INICIO SECCION 2*/
 .sec2{
-    height: 750px;
+    height: 1000px;
     width: 100%;
     background-color: #5e5e64;
     display: flex;
@@ -199,8 +208,7 @@ header{
     text-align: left;
     position: relative;
     left: 25%;
-    top: 10%;
-    
+    top: 10%;   
 }
 .sec3 p{
     font-size: 20px;
@@ -260,11 +268,14 @@ header{
 /*INICIO FOOTER*/
 .secFooter{
     background-color: #5e5e64;
-    height: 110px;
+    height: 150px;
+    width: 100%;
 }
 .secFooter #contenedor6{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 .secFooter img{
     padding-top: 1%;
@@ -272,13 +283,14 @@ header{
 .secFooter ul{
     list-style: none;
     display: flex;
-    width: 50%;
+    width: 100%;
     padding-top: 1%;
 }
 .secFooter ul li{
     padding: 1% 1% 0 1%;
 }
 .secFooter ul li a{
+    font-size: 14px;
     color: #323037;
     text-decoration: none;
 }
@@ -299,5 +311,168 @@ header{
     color: #ceccca;
 }
 /*FIN FOOTER*/
+
+/*+++++++++++++QUERIES celular+++++++++++++*/
+/*+++++++++++++QUERIES+++++++++++++*/
+
+@media screen and (max-width: 767px){
+    .navbar img{
+        height: 60px;
+        width: 60px;
+    }
+    .carousel-caption{
+        top: 35%;
+    }
+    .carousel-caption h1{
+        font-size: 27px;
+    }
+    .carousel-caption p{
+        font-size: 16px;
+    }
+    .carousel-caption .btn{
+        width: 80px;
+        height: 30px;
+    }
+    .carousel-caption .btn a{
+        padding: 7px;
+        width: 90px;
+        height: 30px;
+        color: wheat;
+        text-transform: uppercase;
+        border: 1px solid wheat;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .carousel-indicators li{
+        width: 10px;
+        height: 2px;
+    }
+    .carousel-control-prev .carousel-control-prev-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .carousel-control-next .carousel-control-next-icon{
+        width: 15px;
+        height: 15px;
+    }
+
+    /*seccion quienes somos*/
+    .espacio{
+        height: 500px;
+    }
+    .caja1{
+        width: 45%;
+        height: 40%;
+        left: 12%;
+    }
+    .caja2{
+        width: 70%;
+        height: 80%;
+        right: 10%;
+    }
+    .espacio .caja2 h2{
+        font-size: 22px;
+        top: 20%;
+        left: 60%;
+    }
+    .espacio .caja2 p{
+        width: 80%;
+        font-size: 16px;
+        top: 35%;
+        left: 15%;
+    }
+    .sec2{
+        height: 1700px;
+        align-content: center;
+    }
+    .sec2 h2{
+        font-size: 22px;
+        left: 35%;
+        top: 4%;
+    }
+    .sec2 p{
+        font-size: 16px;
+        width: 60%;
+        left: 25%;
+        top: 5%;
+    }
+    .sec2 .imgSec2{
+        width: 80%;
+        padding: 0 10%;
+        flex-direction: column;
+        align-content: center;
+        top: 5%;
+    }
+    .sec2 .imgSec2 .img1{
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 2%;
+    }
+
+/*+++++FIN SECCION 2+++++*/    
+
+/*+++++INICIO SECCION 3+++++*/    
+    .sec3 .caja3{
+        width: 70%;
+        right: 20%; 
+        top: 45px;
+    }
+    .sec3 .caja4{
+        height: 70%;
+        width: 50%;
+        right: 10%;
+        top: 15%;
+    }
+    .sec3 h2{
+        font-size: 22px; 
+    }
+    .sec3 p{
+        font-size: 16px;
+    }
+/*+++++FIN SECCION 3+++++*/
+
+
+/*+++++INICIO SECCION MASAJES+++++*/
+
+.sec4 h2{
+    font-size: 22px;
+    width: 30%;
+    left: 45%;
+    top: 25%;
+}
+.sec4 p{
+    font-size: 16px;
+    position: relative;
+    width: 40%;
+    left: 40%;
+    top: 35%;
+}
+/*+++++FIN SECCION MASAJES+++++*/
+
+    /*+++++SECCION FOOTER+++++*/
+    .secFooter{
+        display: block;
+        flex-direction: column;
+    }
+    .secFFooter #contenedor6{
+        justify-content: start;
+    }
+    /*+++++FIN SECCION FOOTER+++++*/
+}
+
+
+
+/*+++++QUERIES TABLETA+++++*/
+/*+++++QUERIES TABLETA+++++*/
+@media screen and (min-width: 768px){
+    main h1{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
 
 
