@@ -340,6 +340,37 @@ header{
 /*+++++++++FIN NOSOTROS+++++++*/
 /*+++++++++FIN NOSOTROS+++++++*/
 
+/*+++++++INICIO SERVICIOS+++++++++*/
+.secServ{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/about22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.textServ{
+    width: 95%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+    color: #fc8d38;
+}
+.titleServ{
+    width: 100%;
+    padding: 5%;
+}
+.titleServ h2{
+    text-shadow: 1px 1px #323037;
+}
+.titleServ p{
+    font-size: 20px;
+    text-shadow: 1px 1px #323037;
+}
+/*+++++++FIN SERVICIOS++++++++++*/
+
+
+
 /*INICIO FOOTER*/
 .secFooter{
     background-color: #5e5e64;
@@ -556,6 +587,39 @@ padding-bottom: 10px;
     font-size: 14px;
 }
 /*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
+
+/*+++++++++++++++INICIO SERVICIOS++++++++++++++*/
+
+.textServ{
+    width: 95%;
+    padding-top: 2%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+    color: #fc8d38;
+}
+.titleServ{
+    width: 95%;
+    padding-bottom: 2px;
+    background-color: rgba(17, 1, 1, 0.5);
+    flex-direction: center;
+    margin-bottom: 1%;
+    margin-left: 5%;
+
+}
+.titleServ h2{
+    font-size: 20px;
+    color: wheat;
+    /*text-shadow: 1px 1px rgb(235, 232, 232);*/
+}
+.titleServ p{
+    font-size: 14px;
+    color: wheat;
+   /* text-shadow: 1px 1px rgb(235, 232, 232);*/
+}
+
+/*++++++++++++++++FIN SERVICIOS++++++++++++++++*/
 
     /*+++++SECCION FOOTER+++++*/
     .secFooter{
