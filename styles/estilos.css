@@ -1,681 +1,721 @@
+@charset "UTF-8";
 /*GOOGLE FONTS*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
-
-
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-}
-a{
-    text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
+a {
+  text-decoration: none;
+}
 
 /*INICIO HEADER*/
-header{
-    background-color: #323037;
+header {
+  background-color: #323037;
 }
-.navbar img{
-    height: 80px;
-    width: 80px;
+
+.navbar img {
+  height: 80px;
+  width: 80px;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #fc8d38;
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fc8d38;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-    color: wheat;
-    transform: scale(1.2);
-    transition: 0.5s;
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: wheat;
+  transform: scale(1.2);
+  transition: 0.5s;
 }
-.navbar-light .navbar-toggler{
-    color: wheat;
-    background-color: wheat;
+
+.navbar-light .navbar-toggler {
+  color: wheat;
+  background-color: wheat;
 }
-.navbar-toggler-icon{
-    color: wheat;
+
+.navbar-toggler-icon {
+  color: wheat;
 }
+
 /*FIN HEADER*/
-
-
 /*+++++++++INICIO INDEX+++++++*/
 /*+++++++++INICIO INDEX+++++++*/
-
 /*INICIO MAIN*/
 .carousel-caption {
-    transform: translateY(-50%);
-    bottom: 0;
-    top: 50%;
-  }
-.carousel-caption h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 43px;
-    text-transform: uppercase;
-    animation: bounceInRight;
-    animation-duration: 3s;
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
 }
-.carousel-caption p{
-    padding: 20px;
-    font-size: 20px;
-    animation: backInUp;
-    animation-duration: 3s;
+.carousel-caption h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+  text-transform: uppercase;
+  animation: bounceInRight;
+  animation-duration: 3s;
 }
-.carousel-caption .btn{
-    color: wheat;
-    border: none;
-    animation: backInUp;
-    animation-duration: 3s;
+.carousel-caption p {
+  padding: 20px;
+  font-size: 20px;
+  animation: backInUp;
+  animation-duration: 3s;
 }
-.carousel-caption .btn a{
-    text-transform: uppercase;
-    color: wheat;
-    padding: 20px;
-    border: 1px solid wheat;
+.carousel-caption .btn {
+  color: wheat;
+  border: none;
+  animation: backInUp;
+  animation-duration: 3s;
+}
+.carousel-caption .btn a {
+  text-transform: uppercase;
+  color: wheat;
+  padding: 20px;
+  border: 1px solid wheat;
 }
 
 /*FIN MAIN*/
-
 /*INICIO SECCION ESPACIO*/
+.espacio {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-color: #ceccca;
+  position: relative;
+}
+.espacio .caja1 {
+  height: 70%;
+  width: 37%;
+  background-image: url(../img/bg2.jpg);
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 50%;
+  top: 40px;
+  z-index: 2;
+  /*animation: backInUp;
+  animation-duration: 3s;*/
+}
+.espacio .caja2 {
+  height: 70%;
+  width: 60%;
+  background-color: #858588;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  z-index: 1;
+  overflow: hidden;
+}
+.espacio .caja2 h2 {
+  color: wheat;
+  text-transform: uppercase;
+  width: 40%;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  position: relative;
+  left: 48%;
+  top: 10%;
+}
+.espacio .caja2 p {
+  font-size: 20px;
+  color: wheat;
+  width: 40%;
+  position: relative;
+  text-align: left;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  left: 48%;
+  top: 15%;
+}
 
-.espacio{
-    display: flex;
-    height: 700px;
-    width: 100%;
-    background-color: #ceccca;
-    position: relative;
-}
-.caja1{
-    height: 70%;
-    width: 37%;
-    background-image: url(../img/bg2.jpg);
-    background-color: aqua;
-    background-size: cover;
-    background-position: center;
-    position: absolute; 
-    right: 50%; 
-    top: 40px;
-    z-index: 2;
-    /*animation: backInUp;
-    animation-duration: 3s;*/
-}
-.caja2{
-    height: 70%;
-    width: 60%;
-    background-color: rgb(133, 133, 136);
-    position: absolute; 
-    right: 15%;
-    top: 15%;
-    z-index: 1;
-    overflow: hidden;
-}
-.espacio .caja2 h2{
-    color: wheat;
-    text-transform: uppercase;
-    width: 40%;
-    font-size: 35px;
-    font-family: 'Playfair Display', serif;
-    text-align: left;
-    position: relative;
-    left: 48%;
-    top: 10%;
-}
-.espacio p{
-    font-size: 20px;
-    color: wheat;
-    width: 40%;
-    position: relative;
-    text-align: left;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    left: 48%;
-    top: 15%;
-}
 /*FIN SECCION ESPACIO*/
-
 /*INICIO SECCION 2*/
-.sec2{
-    height: 1000px;
-    width: 100%;
-    background-color: #5e5e64;
-    display: flex;
-    flex-direction: column;
+.sec2 {
+  height: 1000px;
+  width: 100%;
+  background-color: #5e5e64;
+  display: flex;
+  flex-direction: column;
 }
-.sec2 h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    position: relative;
-    width: 40%;
-    left: 50%;
-    top: 7%;
-    text-transform: uppercase;
-    color: wheat;
+.sec2 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  position: relative;
+  width: 40%;
+  left: 50%;
+  top: 7%;
+  text-transform: uppercase;
+  color: wheat;
 }
-.sec2 p{
-    font-size: 20px;
-    position: relative;
-    width: 40%;
-    left: 50%;
-    top: 10%;
-    color: wheat;
+.sec2 p {
+  font-size: 20px;
+  position: relative;
+  width: 40%;
+  left: 50%;
+  top: 10%;
+  color: wheat;
 }
-.sec2 .imgSec2{
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 20%;
+.sec2 .imgSec2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 20%;
 }
-.sec2 .img1{
-    padding: 0 10px;
+.sec2 .img1 {
+  padding: 0 10px;
 }
+
 /*FIN SECCION 2*/
-
 /*INICIO SECCION 3*/
-.sec3{
-    display: flex;
-    height: 700px;
-    width: 100%;
-    background-color: #ceccca;
-    position: relative;
+.sec3 {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-color: #ceccca;
+  position: relative;
 }
-.caja3{
-    height: 70%;
-    width: 60%;
-    background-image: url(../img/yoga-header22.JPG);
-    background-color: aqua;
-    background-size: cover;
-    background-position: center;
-    position: absolute; 
-    right: 30%; 
-    top: 40px;  
-    /*animation: backInUp;
-    animation-duration: 3s;*/
+.sec3 .caja3 {
+  height: 70%;
+  width: 60%;
+  background-image: url(../img/yoga-header22.JPG);
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 30%;
+  top: 40px;
+  /*animation: backInUp;
+  animation-duration: 3s;*/
 }
-.caja4{
-    height: 70%;
-    width: 40%;
-    background-color: aliceblue;
-    position: absolute; 
-    right: 15%;
-    top: 15%;
-    z-index: 1;
-    overflow: hidden;
+.sec3 .caja4 {
+  height: 70%;
+  width: 40%;
+  background-color: aliceblue;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  z-index: 1;
+  overflow: hidden;
 }
-.sec3 h2{
-    color: #fc8d38;
-    text-transform: uppercase;
-    width: 60%;
-    font-size: 35px;
-    font-family: 'Playfair Display', serif;
-    text-align: left;
-    position: relative;
-    left: 25%;
-    top: 10%;   
+.sec3 .caja4 h2 {
+  color: #fc8d38;
+  text-transform: uppercase;
+  width: 60%;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  position: relative;
+  left: 25%;
+  top: 10%;
 }
-.sec3 p{
-    font-size: 20px;
-    color: #fc8d38;
-    width: 60%;
-    position: relative;
-    text-align: left;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    left: 25%;
-    top: 15%;
+.sec3 .caja4 p {
+  font-size: 20px;
+  color: #fc8d38;
+  width: 60%;
+  position: relative;
+  text-align: left;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  left: 25%;
+  top: 15%;
 }
+
 /*FIN SECCION 3*/
-
 /*INICIO SECCION 4 MASAJE*/
-.sec4{
-    height: 600px;
-    background-image: url(../img/massage.jpg);
-    background-size: cover;
-    background-position: center;
-    color: wheat;
-    text-align: center;
-    justify-content: center;
+.sec4 {
+  height: 600px;
+  background-image: url(../img/massage.jpg);
+  background-size: cover;
+  background-position: center;
+  color: wheat;
+  text-align: center;
+  justify-content: center;
 }
-.sec4 h2{
-    font-size: 35px;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    position: relative;
-    width: 30%;
-    left: 60%;
-    top: 15%;
+.sec4 h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  position: relative;
+  width: 30%;
+  left: 60%;
+  top: 15%;
 }
-.sec4 p{
-    font-size: 20px;
-    position: relative;
-    width: 30%;
-    left: 60%;
-    top: 20%;
+.sec4 p {
+  font-size: 20px;
+  position: relative;
+  width: 30%;
+  left: 60%;
+  top: 20%;
 }
+
 /*FIN SECCION 4 MASAJE*/
-
-
 /*INICIO SECCION 5 COMENTS*/
-.sec5{
-    height: 500px;
-    width: 100%;
-    background-color: #ceccca;
-    justify-content: center;
+.sec5 {
+  height: 500px;
+  width: 100%;
+  background-color: #ceccca;
+  justify-content: center;
 }
-.sec5 .coment1{
-    height: 300px;
-    width: 100%;
-    background-color: #5e5e64;
+.sec5 .coment1 {
+  height: 300px;
+  width: 100%;
+  background-color: #5e5e64;
 }
+
 /*FIN SECCION 5 COMENTS*/
-
 /*+++++++++FIN INDEX+++++++*/
 /*+++++++++FIN INDEX+++++++*/
-
-
 /*+++++++++ INICIO NOSOTROS+++++++*/
 /*+++++++++ INICIO NOSOTROS+++++++*/
+.nosotros {
+  padding-top: 15%;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-image: url(../img/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: initial;
+}
+.nosotros .secHistory {
+  padding: 20px;
+  display: flex;
+  height: 40%;
+  width: 40%;
+  background-color: rgba(17, 1, 1, 0.5);
+  justify-content: center;
+  flex-direction: column;
+  color: #fc8d38;
+}
+.nosotros .secHistory h2 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
 
-.nosotros{
-    padding-top: 15%;
-    display: flex;
-    height: 700px;
-    width: 100%;
-    background-image: url(../img/bg3.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: initial;
+.historia {
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fc8d38;
 }
-.nosotros .secHistory{
-    padding: 20px;
-    display: flex;
-    height: 40%;
-    width: 40%;
-    background-color: rgba(17, 1, 1, 0.5);
-    justify-content: center;
-    flex-direction: column;
-    color: #fc8d38;
+
+.imgHistoria {
+  background-color: #5e5e64;
+  background-image: url(../img/advantages-of-yoga1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60%;
+  width: 60%;
 }
-.secHistory h2{
-    text-transform: uppercase;
-    padding-bottom: 10px;
+
+.historia2 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fc8d38;
 }
-.historia{
-    background-position: center;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fc8d38;
+
+.imgHistoria2 {
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60%;
+  width: 60%;
 }
-.imgHistoria{
-    background-color: #5e5e64;
-    background-image: url(../img/advantages-of-yoga1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 60%;
-    width: 60%;
-}
-.historia2{
-    height: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fc8d38;
-}
-.imgHistoria2{
-    background-image: url(../img/about.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 60%;
-    width: 60%;
-}
-.textHistoria{
-    width: 80%;
+
+.textHistoria {
+  width: 80%;
 }
 
 /*+++++++++FIN NOSOTROS+++++++*/
 /*+++++++++FIN NOSOTROS+++++++*/
-
 /*+++++++INICIO SERVICIOS+++++++++*/
-.secServ{
-    height: 700px;
-    width: 100%;
-    background-image: url(../img/about22.jpg);
-    background-position: center;
-    background-size: cover;
+.secServ {
+  height: 700px;
+  width: 100%;
+  background-image: url(../img/about22.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.textServ{
-    width: 95%;
-    padding-top: 10%;
-    display: flex;
-    flex-direction: center;
-    text-align: center;
-    color: #fc8d38;
+
+.textServ {
+  width: 95%;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: center;
+  text-align: center;
+  color: #fc8d38;
 }
-.titleServ{
-    width: 100%;
-    padding: 5%;
+
+.titleServ {
+  width: 100%;
+  padding: 5%;
 }
-.titleServ h2{
-    text-shadow: 1px 1px #323037;
+
+.titleServ h2 {
+  text-shadow: 1px 1px #323037;
 }
-.titleServ p{
-    font-size: 20px;
-    text-shadow: 1px 1px #323037;
+
+.titleServ p {
+  font-size: 20px;
+  text-shadow: 1px 1px #323037;
 }
+
 /*+++++++FIN SERVICIOS++++++++++*/
-
-
 /*++++++++++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
-.gallery-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px;
-    grid-gap: 10px;
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 150px;
+  grid-gap: 10px;
 }
-.titleImg{
-    font-size: 30px;
-    color: #fc8d38;
-    text-align: center;
+
+.titleImg {
+  font-size: 30px;
+  color: #fc8d38;
+  text-align: center;
 }
-.gallery__item{
-    position: relative;
+
+.gallery__item {
+  position: relative;
 }
-.gallery__img{
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover;*/
-    background-image: center;
-    /*background-position: cover;*/
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover;*/
+  background-image: center;
+  /*background-position: cover;*/
 }
-.gallery__title{
-    position: absolute;
-    bottom: 0;
-    color: #fc8d38;
-    background: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,1));
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 10px;
+
+.gallery__title {
+  position: absolute;
+  bottom: 0;
+  color: #fc8d38;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), black);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
 }
-.gallery__item:nth-child(4){
-    grid-column-start: span 2;
+
+.gallery__item:nth-child(4) {
+  grid-column-start: span 2;
 }
-.gallery__item:nth-child(5){
-    grid-row-start: span 2;
+
+.gallery__item:nth-child(5) {
+  grid-row-start: span 2;
 }
-.gallery__item:nth-child(9){
-    grid-column-start: span 2;
+
+.gallery__item:nth-child(9) {
+  grid-column-start: span 2;
 }
-.imgVideo{
-    height: 600px;
+
+.imgVideo {
+  height: 600px;
 }
-.imgVideo h2{
-    font-size: 30px;
-    color: #fc8d38;
-    text-align: center;
-    margin-top: 5%;
+
+.imgVideo h2 {
+  font-size: 30px;
+  color: #fc8d38;
+  text-align: center;
+  margin-top: 5%;
 }
-.imgVideo iframe{
-   width: 70%;
-   height: 500px;
-   margin-left: 15%;
+
+.imgVideo iframe {
+  width: 70%;
+  height: 500px;
+  margin-left: 15%;
 }
+
 /*++++++++++++++++++++++++FIN IMAGENES+++++++++++++++++*/
-
 /*+++++++++++++++++INICIO CONTACTO+++++++++++++++*/
-.donde h2{
-    width: 100%;
-    text-align: center;
-    color: #fc8d38;
-    margin-top: 3%;
-    margin-bottom: 2%;
+.donde h2 {
+  width: 100%;
+  text-align: center;
+  color: #fc8d38;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
-.donde iframe{
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 10%;
+
+.donde iframe {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 10%;
 }
-form{
-    padding-right: 0;
+
+form {
+  padding-right: 0;
 }
-.form-group{
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    padding-right: 0;
+
+.form-group {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  padding-right: 0;
 }
-.imgCont{
-    width: 70%;
+
+.imgCont {
+  width: 70%;
 }
+
 /*++++++++++++++++++++FIN CONTACTO++++++++++++++++*/
-
-
-
 /*INICIO FOOTER*/
-.secFooter{
-    background-color: #5e5e64;
-    height: 200px;
-    width: 100%;
+.secFooter {
+  background-color: #5e5e64;
+  height: 200px;
+  width: 100%;
 }
-.secFooter #contenedor6{
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-.secFooter img{
-    padding-top: 1%;
-}
-.secFooter ul{
-    list-style: none;
-    display: flex;
-    width: 100%;
-    padding-top: 1%;
-}
-.secFooter ul li{
-    padding: 1% 1% 0 1%;
-}
-.secFooter ul li a{
-    font-size: 14px;
-    color: #323037;
-    text-decoration: none;
-}
-.secFooter ul li a:hover{
-    color: wheat;
-}
-.secFooter .diseño .contenidoPie{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.secFooter .diseño .contenidoPie a{
-    text-decoration: none;
-    color: #fc8d38;
-}
-.secFooter .diseño .contenidoPie a:hover{
-    text-decoration: none;
-    color: #ceccca;
-}
-/*FIN FOOTER*/
 
+.secFooter #contenedor6 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.secFooter img {
+  padding-top: 1%;
+}
+
+.secFooter ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding-top: 1%;
+}
+
+.secFooter ul li {
+  padding: 1% 1% 0 1%;
+}
+
+.secFooter ul li a {
+  font-size: 14px;
+  color: #323037;
+  text-decoration: none;
+}
+
+.secFooter ul li a:hover {
+  color: wheat;
+}
+
+.secFooter .diseño .contenidoPie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.secFooter .diseño .contenidoPie a {
+  text-decoration: none;
+  color: #fc8d38;
+}
+
+.secFooter .diseño .contenidoPie a:hover {
+  text-decoration: none;
+  color: #ceccca;
+}
+
+/*FIN FOOTER*/
 /*++++++++++++++++++++++++++++++++++QUERIES celular+++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++QUERIES+++++++++++++*/
+@media screen and (max-width: 767px) {
+  .navbar img {
+    height: 60px;
+    width: 60px;
+  }
 
-@media screen and (max-width: 767px){
-    .navbar img{
-        height: 60px;
-        width: 60px;
-    }
-    .carousel-caption{
-        top: 35%;
-    }
-    .carousel-caption h1{
-        font-size: 23px;
-    }
-    .carousel-caption p{
-        padding: 7px;
-        font-size: 14px;
-    }
-    .carousel-caption .btn{
-        width: 80px;
-        height: 15px;
-    }
-    .carousel-caption .btn a{
-        padding: 7px;
-        width: 90px;
-        height: 15px;
-        color: wheat;
-        text-transform: uppercase;
-        border: 1px solid wheat;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-    .carousel-indicators li{
-        width: 10px;
-        height: 2px;
-    }
-    .carousel-control-prev .carousel-control-prev-icon{
-        width: 15px;
-        height: 15px;
-    }
-    .carousel-control-next .carousel-control-next-icon{
-        width: 15px;
-        height: 15px;
-    }
+  .carousel-caption {
+    top: 35%;
+  }
 
-    /*seccion quienes somos*/
-    .espacio{
-        height: 500px;
-    }
-    .caja1{
-        width: 45%;
-        height: 40%;
-        left: 12%;
-    }
-    .caja2{
-        width: 70%;
-        height: 80%;
-        right: 10%;
-    }
-    .espacio .caja2 h2{
-        font-size: 20px;
-        top: 20%;
-        left: 55%;
-    }
-    .espacio .caja2 p{
-        width: 80%;
-        font-size: 14px;
-        top: 28%;
-        left: 15%;
-    }
-    .sec2{
-        height: 900px;
-        align-content: center;
-    }
-    .sec2 h2{
-        font-size: 20px;
-        left: 35%;
-        top: 4%;
-    }
-    .sec2 p{
-        font-size: 14px;
-        width: 60%;
-        left: 25%;
-        top: 5%;
-    }
-    .sec2 .imgSec2{
-        width: 80%;
-        padding: 0 10%;
-        flex-direction: column;
-        align-content: center;
-        top: 5%;
-    }
-    .sec2 .imgSec2 .img1{
-        width: 250px;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-        padding-bottom: 2%;
-    }
+  .carousel-caption h1 {
+    font-size: 23px;
+  }
 
-/*+++++FIN SECCION 2+++++*/    
+  .carousel-caption p {
+    padding: 7px;
+    font-size: 14px;
+  }
 
-/*+++++INICIO SECCION 3+++++*/    
-    .sec3 .caja3{
-        width: 70%;
-        right: 20%; 
-        top: 45px;
-    }
-    .sec3 .caja4{
-        height: 70%;
-        width: 50%;
-        right: 10%;
-        top: 15%;
-    }
-    .sec3 h2{
-        font-size: 20px;
-        top: 4%; 
-    }
-    .sec3 p{
-        font-size: 14px;
-        top: 5%;
-        width: 70%;
-        left: 20%;
-    }
-/*+++++FIN SECCION 3+++++*/
+  .carousel-caption .btn {
+    width: 80px;
+    height: 15px;
+  }
 
+  .carousel-caption .btn a {
+    padding: 7px;
+    width: 90px;
+    height: 15px;
+    color: wheat;
+    text-transform: uppercase;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    text-decoration: none;
+  }
 
-/*+++++INICIO SECCION MASAJES+++++*/
+  .carousel-indicators li {
+    width: 10px;
+    height: 2px;
+  }
 
-.sec4 h2{
+  .carousel-control-prev .carousel-control-prev-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .carousel-control-next .carousel-control-next-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  /*seccion quienes somos*/
+  .espacio {
+    height: 500px;
+  }
+
+  .caja1 {
+    width: 45%;
+    height: 40%;
+    left: 12%;
+  }
+
+  .caja2 {
+    width: 70%;
+    height: 80%;
+    right: 10%;
+  }
+
+  .espacio .caja2 h2 {
+    font-size: 20px;
+    top: 20%;
+    left: 55%;
+  }
+
+  .espacio .caja2 p {
+    width: 80%;
+    font-size: 14px;
+    top: 28%;
+    left: 15%;
+  }
+
+  .sec2 {
+    height: 900px;
+    align-content: center;
+  }
+
+  .sec2 h2 {
+    font-size: 20px;
+    left: 35%;
+    top: 4%;
+  }
+
+  .sec2 p {
+    font-size: 14px;
+    width: 60%;
+    left: 25%;
+    top: 5%;
+  }
+
+  .sec2 .imgSec2 {
+    width: 80%;
+    padding: 0 10%;
+    flex-direction: column;
+    align-content: center;
+    top: 5%;
+  }
+
+  .sec2 .imgSec2 .img1 {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2%;
+  }
+
+  /*+++++FIN SECCION 2+++++*/
+  /*+++++INICIO SECCION 3+++++*/
+  .sec3 .caja3 {
+    width: 70%;
+    right: 20%;
+    top: 45px;
+  }
+
+  .sec3 .caja4 {
+    height: 70%;
+    width: 50%;
+    right: 10%;
+    top: 15%;
+  }
+
+  .sec3 h2 {
+    font-size: 20px;
+    top: 4%;
+  }
+
+  .sec3 p {
+    font-size: 14px;
+    top: 5%;
+    width: 70%;
+    left: 20%;
+  }
+
+  /*+++++FIN SECCION 3+++++*/
+  /*+++++INICIO SECCION MASAJES+++++*/
+  .sec4 h2 {
     font-size: 20px;
     width: 30%;
     left: 45%;
     top: 25%;
-}
-.sec4 p{
+  }
+
+  .sec4 p {
     font-size: 14px;
     position: relative;
     width: 40%;
     left: 40%;
     top: 35%;
-}
-/*+++++FIN SECCION MASAJES+++++*/
+  }
 
-/*++++++++++++++FIN+++++++++++++++*/
-/*++++++++++++++INDEX+++++++++++++++*/
+  /*+++++FIN SECCION MASAJES+++++*/
+  /*++++++++++++++FIN+++++++++++++++*/
+  /*++++++++++++++INDEX+++++++++++++++*/
+  /*++++++++++++++++INICIO NOSOTROS+++++++++++*/
+  .nosotros {
+    padding-top: 7%;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+  }
 
+  .nosotros .secHistory {
+    padding: 10px;
+    height: 80%;
+    width: 70%;
+  }
 
-/*++++++++++++++++INICIO NOSOTROS+++++++++++*/
-.nosotros{
-padding-top: 7%;
-height: 350px;
-text-align: center;
-justify-content: center;
-}
-.nosotros .secHistory{
-padding: 10px;
-height: 80%;
-width: 70%;
-}
-.secHistory h2{
+  .secHistory h2 {
     font-size: 20px;
-text-transform: uppercase;
-padding-bottom: 10px;
-}
-.secHistory p{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+  .secHistory p {
     font-size: 14px;
-}
-/*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
+  }
 
-/*+++++++++++++++INICIO SERVICIOS++++++++++++++*/
-
-.textServ{
+  /*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
+  /*+++++++++++++++INICIO SERVICIOS++++++++++++++*/
+  .textServ {
     width: 95%;
     padding-top: 2%;
     padding-left: 5%;
@@ -683,96 +723,100 @@ padding-bottom: 10px;
     flex-direction: center;
     text-align: center;
     color: #fc8d38;
-}
-.titleServ{
+  }
+
+  .titleServ {
     width: 95%;
     padding-bottom: 2px;
     background-color: rgba(17, 1, 1, 0.5);
     flex-direction: center;
     margin-bottom: 1%;
     margin-left: 5%;
+  }
 
-}
-.titleServ h2{
+  .titleServ h2 {
     font-size: 20px;
     color: wheat;
     /*text-shadow: 1px 1px rgb(235, 232, 232);*/
-}
-.titleServ p{
+  }
+
+  .titleServ p {
     font-size: 14px;
     color: wheat;
-   /* text-shadow: 1px 1px rgb(235, 232, 232);*/
-}
+    /* text-shadow: 1px 1px rgb(235, 232, 232);*/
+  }
 
-/*++++++++++++++++FIN SERVICIOS++++++++++++++++*/
-
-
-/*++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
-.titleImg{
+  /*++++++++++++++++FIN SERVICIOS++++++++++++++++*/
+  /*++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
+  .titleImg {
     font-size: 20px;
     text-align: center;
     color: #323037;
-}
-.gallery-container{
+  }
+
+  .gallery-container {
     grid-template-columns: repeat(2, 1fr);
-}
-.gallery__title{
+  }
+
+  .gallery__title {
     font-size: 16px;
     color: white;
-}
-.gallery__item:nth-child(2){
+  }
+
+  .gallery__item:nth-child(2) {
     grid-row-start: span 2;
-}
-.gallery__item:nth-child(7){
+  }
+
+  .gallery__item:nth-child(7) {
     grid-row-start: span 2;
-}
-.imgVideo{
+  }
+
+  .imgVideo {
     height: 400px;
-}
-.imgVideo h2{
+  }
+
+  .imgVideo h2 {
     font-size: 20px;
     margin-top: 5%;
     text-align: center;
     color: #323037;
-}
-.imgVideo iframe{
+  }
+
+  .imgVideo iframe {
     width: 90%;
     height: 300px;
     margin-left: 5%;
-}
-/*++++++++++++++++FIN IMAGENES++++++++++++++++++++*/
+  }
 
-/*+++++++++++++++++contacto+++++++++++++++*/
-.donde h2{
+  /*++++++++++++++++FIN IMAGENES++++++++++++++++++++*/
+  /*+++++++++++++++++contacto+++++++++++++++*/
+  .donde h2 {
     width: 100%;
     font-size: 20px;
     text-align: center;
-}
-.imgCont{
+  }
+
+  .imgCont {
     width: 70%;
     margin-left: 30%;
     margin-bottom: 10%;
+  }
+
+  /*+++++++++++++++++++fin contacto+++++++++++++++++++++*/
+  /*+++++SECCION FOOTER+++++*/
+  .secFooter {
+    height: 150px;
+    display: block;
+    flex-direction: column;
+  }
+
+  .secFFooter #contenedor6 {
+    justify-content: start;
+  }
+
+  /*+++++FIN SECCION FOOTER+++++*/
 }
-/*+++++++++++++++++++fin contacto+++++++++++++++++++++*/
-
-    /*+++++SECCION FOOTER+++++*/
-    .secFooter{
-        height: 150px;
-        display: block;
-        flex-direction: column;
-    }
-    .secFFooter #contenedor6{
-        justify-content: start;
-    }
-    /*+++++FIN SECCION FOOTER+++++*/
-}
-
-
-
 /*+++++QUERIES TABLETA+++++*/
 /*+++++QUERIES TABLETA+++++*/
-@media screen and (min-width: 768px){
-  
-}
 
-
+/*# sourceMappingURL=estilos.css.map */
