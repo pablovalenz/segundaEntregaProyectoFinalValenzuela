@@ -43,39 +43,6 @@ header {
 /*FIN HEADER*/
 /*+++++++++INICIO INDEX+++++++*/
 /*+++++++++INICIO INDEX+++++++*/
-/*INICIO MAIN*/
-.carousel-caption {
-  transform: translateY(-50%);
-  bottom: 0;
-  top: 50%;
-}
-.carousel-caption h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 43px;
-  text-transform: uppercase;
-  animation: bounceInRight;
-  animation-duration: 3s;
-}
-.carousel-caption p {
-  padding: 20px;
-  font-size: 20px;
-  animation: backInUp;
-  animation-duration: 3s;
-}
-.carousel-caption .btn {
-  color: wheat;
-  border: none;
-  animation: backInUp;
-  animation-duration: 3s;
-}
-.carousel-caption .btn a {
-  text-transform: uppercase;
-  color: wheat;
-  padding: 20px;
-  border: 1px solid wheat;
-}
-
-/*FIN MAIN*/
 /*INICIO SECCION ESPACIO*/
 .espacio {
   display: flex;
@@ -818,5 +785,38 @@ form {
 }
 /*+++++QUERIES TABLETA+++++*/
 /*+++++QUERIES TABLETA+++++*/
+/*INICIO MAIN*/
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
+}
+.carousel-caption h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+  text-transform: uppercase;
+  animation: bounceInRight;
+  animation-duration: 3s;
+}
+.carousel-caption p {
+  padding: 20px;
+  font-size: 20px;
+  animation: backInUp;
+  animation-duration: 3s;
+}
+.carousel-caption .btn {
+  color: wheat;
+  border: none;
+  animation: backInUp;
+  animation-duration: 3s;
+}
+.carousel-caption .btn a {
+  text-transform: uppercase;
+  color: wheat;
+  padding: 20px;
+  border: 1px solid wheat;
+}
+
+/*FIN MAIN*/
 
 /*# sourceMappingURL=estilos.css.map */
