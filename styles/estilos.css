@@ -465,12 +465,12 @@
   * .espacio {
     height: 500px;
   }
-  * .caja1 {
+  * .espacio .caja1 {
     width: 45%;
     height: 40%;
     left: 12%;
   }
-  * .caja2 {
+  * .espacio .caja2 {
     width: 70%;
     height: 80%;
     right: 10%;
@@ -526,28 +526,29 @@
     right: 10%;
     top: 15%;
   }
-  * .sec3 h2 {
+  * .sec3 .caja4 h2 {
     font-size: 20px;
     top: 4%;
   }
-  * .sec3 p {
+  * .sec3 .caja4 p {
     font-size: 14px;
     top: 5%;
     width: 70%;
     left: 20%;
   }
   * .sec4 h2 {
-    font-size: 20px;
+    font-size: 30px;
     width: 30%;
-    left: 45%;
+    left: 30%;
     top: 25%;
+    text-shadow: 1px 1px #323037;
   }
   * .sec4 p {
-    font-size: 14px;
+    font-size: 20px;
     position: relative;
-    width: 40%;
-    left: 40%;
-    top: 35%;
+    width: 70%;
+    left: 15%;
+    top: 30%;
   }
   * .nosotros {
     padding-top: 7%;

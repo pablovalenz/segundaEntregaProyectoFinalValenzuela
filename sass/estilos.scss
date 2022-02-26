@@ -3,6 +3,7 @@
 
 $font1: 'Playfair Display', serif;  
 
+
 *{
     padding: 0;
     margin: 0;
@@ -167,7 +168,7 @@ $font1: 'Playfair Display', serif;
                 text-transform: uppercase;
                 width: 60%;
                 font-size: 35px;
-                font-family: 'Playfair Display', serif;
+                font-family: $font1;
                 text-align: left;
                 position: relative;
                 left: 25%;
@@ -200,7 +201,7 @@ $font1: 'Playfair Display', serif;
         h2{
             font-size: 35px;
             text-transform: uppercase;
-            font-family: 'Playfair Display', serif;
+            font-family: $font1;
             position: relative;
             width: 30%;
             left: 60%;
@@ -476,99 +477,104 @@ form{
     /*seccion quienes somos*/
     .espacio{
         height: 500px;
-    }
-    .caja1{
-        width: 45%;
-        height: 40%;
-        left: 12%;
-    }
-    .caja2{
-        width: 70%;
-        height: 80%;
-        right: 10%;
-    }
-    .espacio .caja2 h2{
-        font-size: 20px;
-        top: 20%;
-        left: 55%;
-    }
-    .espacio .caja2 p{
-        width: 80%;
-        font-size: 14px;
-        top: 28%;
-        left: 15%;
+        .caja1{
+            width: 45%;
+            height: 40%;
+            left: 12%;
+        }
+        .caja2{
+            width: 70%;
+            height: 80%;
+            right: 10%;
+            h2{
+                font-size: 20px;
+                top: 20%;
+                left: 55%;
+            }
+            p{
+                width: 80%;
+                font-size: 14px;
+                top: 28%;
+                left: 15%;
+            }
+        }
     }
     .sec2{
         height: 900px;
         align-content: center;
-    }
-    .sec2 h2{
-        font-size: 20px;
-        left: 35%;
-        top: 4%;
-    }
-    .sec2 p{
-        font-size: 14px;
-        width: 60%;
-        left: 25%;
-        top: 5%;
-    }
-    .sec2 .imgSec2{
-        width: 80%;
-        padding: 0 10%;
-        flex-direction: column;
-        align-content: center;
-        top: 5%;
-    }
-    .sec2 .imgSec2 .img1{
-        width: 250px;
-        height: 250px;
-        background-size: cover;
-        background-position: center;
-        padding-bottom: 2%;
-    }
+        h2{
+            font-size: 20px;
+            left: 35%;
+            top: 4%;
+        }
+        p{
+            font-size: 14px;
+            width: 60%;
+            left: 25%;
+            top: 5%;
+        }
+        .imgSec2{
+            width: 80%;
+            padding: 0 10%;
+            flex-direction: column;
+            align-content: center;
+            top: 5%;
+            .img1{
+                width: 250px;
+                height: 250px;
+                background-size: cover;
+                background-position: center;
+                padding-bottom: 2%;
+            }
+        }
+    } 
 
 /*+++++FIN SECCION 2+++++*/    
 
 /*+++++INICIO SECCION 3+++++*/    
-    .sec3 .caja3{
-        width: 70%;
-        right: 20%; 
-        top: 45px;
-    }
-    .sec3 .caja4{
-        height: 70%;
-        width: 50%;
-        right: 10%;
-        top: 15%;
-    }
-    .sec3 h2{
-        font-size: 20px;
-        top: 4%; 
-    }
-    .sec3 p{
-        font-size: 14px;
-        top: 5%;
-        width: 70%;
-        left: 20%;
-    }
+    .sec3{
+        .caja3{
+            width: 70%;
+            right: 20%; 
+            top: 45px;
+        }
+        .caja4{
+            height: 70%;
+            width: 50%;
+            right: 10%;
+            top: 15%;
+            h2{
+                font-size: 20px;
+                top: 4%; 
+            }
+            p{
+                font-size: 14px;
+                top: 5%;
+                width: 70%;
+                left: 20%;
+            }
+        }
+    }  
 /*+++++FIN SECCION 3+++++*/
 
 
 /*+++++INICIO SECCION MASAJES+++++*/
 
-.sec4 h2{
-    font-size: 20px;
-    width: 30%;
-    left: 45%;
-    top: 25%;
-}
-.sec4 p{
-    font-size: 14px;
-    position: relative;
-    width: 40%;
-    left: 40%;
-    top: 35%;
+.sec4{
+    h2{
+        font-size: 30px;
+        width: 30%;
+        left: 30%;
+        top: 25%;
+        text-shadow: 1px 1px #323037;
+    }
+    p{
+        font-size: 20px;
+        position: relative;
+        width: 70%;
+        left: 15%;
+        top: 30%;
+    }
 }
 /*+++++FIN SECCION MASAJES+++++*/
 
