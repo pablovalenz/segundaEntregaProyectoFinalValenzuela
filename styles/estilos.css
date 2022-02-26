@@ -5,53 +5,66 @@
   padding: 0;
   margin: 0;
   font-family: "Playfair Display", serif;
+  /*INICIO HEADER*/
+  /*FIN HEADER*/
+  /*+++++++++INICIO INDEX+++++++*/
+  /*INICIO SECCION ESPACIO*/
+  /*FIN SECCION ESPACIO*/
+  /*INICIO SECCION 2*/
+  /*FIN SECCION 2*/
+  /*INICIO SECCION 3*/
+  /*FIN SECCION 3*/
+  /*INICIO SECCION 4 MASAJE*/
+  /*FIN SECCION 4 MASAJE*/
+  /*INICIO SECCION 5 COMENTS*/
+  /*FIN SECCION 5 COMENTS*/
+  /*+++++++++FIN INDEX.HTML+++++++*/
+  /*+++++++++FIN INDEX.HTML+++++++*/
+  /*+++++++++ INICIO NOSOTROS.HTML+++++++*/
+  /*+++++++++ INICIO NOSOTROS.HTML+++++++*/
+  /*+++++++++FIN NOSOTROS+++++++*/
+  /*+++++++++FIN NOSOTROS+++++++*/
+  /*+++++++INICIO SERVICIOS+++++++++*/
+  /*+++++++FIN SERVICIOS++++++++++*/
+  /*++++++++++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
+  /*++++++++++++++++++++++++FIN IMAGENES+++++++++++++++++*/
+  /*+++++++++++++++++INICIO CONTACTO+++++++++++++++*/
+  /*++++++++++++++++++++FIN CONTACTO++++++++++++++++*/
+  /*INICIO FOOTER*/
+  /*FIN FOOTER*/
+  /*++++++++++++++++++++++++++++++++++QUERIES celular+++++++++++++++++++++++++++++++++++++++*/
+  /*+++++++++++++QUERIES+++++++++++++*/
 }
-
-a {
-  text-decoration: none;
-}
-
-/*INICIO HEADER*/
-header {
+* header {
   background-color: #323037;
 }
-
-.navbar img {
+* header img {
   height: 80px;
   width: 80px;
 }
-
-.navbar-light .navbar-nav .nav-link {
+* header .navbar-light .navbar-nav .nav-link {
   color: #fc8d38;
 }
-
-.navbar-light .navbar-nav .nav-link:hover {
+* header .navbar-light .navbar-nav .nav-link:hover {
   color: wheat;
   transform: scale(1.2);
   transition: 0.5s;
 }
-
-.navbar-light .navbar-toggler {
+* header .navbar-light .navbar-toggler {
   color: wheat;
   background-color: wheat;
 }
-
-.navbar-toggler-icon {
+* header .navbar-toggler-icon {
   color: wheat;
 }
-
-/*FIN HEADER*/
-/*+++++++++INICIO INDEX+++++++*/
-/*+++++++++INICIO INDEX+++++++*/
-/*INICIO SECCION ESPACIO*/
-.espacio {
+* .espacio {
   display: flex;
   height: 700px;
   width: 100%;
   background-color: #ceccca;
   position: relative;
 }
-.espacio .caja1 {
+* .espacio .caja1 {
   height: 70%;
   width: 37%;
   background-image: url(../img/bg2.jpg);
@@ -65,7 +78,7 @@ header {
   /*animation: backInUp;
   animation-duration: 3s;*/
 }
-.espacio .caja2 {
+* .espacio .caja2 {
   height: 70%;
   width: 60%;
   background-color: #858588;
@@ -75,7 +88,7 @@ header {
   z-index: 1;
   overflow: hidden;
 }
-.espacio .caja2 h2 {
+* .espacio .caja2 h2 {
   color: wheat;
   text-transform: uppercase;
   width: 40%;
@@ -86,7 +99,7 @@ header {
   left: 48%;
   top: 10%;
 }
-.espacio .caja2 p {
+* .espacio .caja2 p {
   font-size: 20px;
   color: wheat;
   width: 40%;
@@ -96,17 +109,14 @@ header {
   left: 48%;
   top: 15%;
 }
-
-/*FIN SECCION ESPACIO*/
-/*INICIO SECCION 2*/
-.sec2 {
+* .sec2 {
   height: 1000px;
   width: 100%;
   background-color: #5e5e64;
   display: flex;
   flex-direction: column;
 }
-.sec2 h2 {
+* .sec2 h2 {
   font-family: "Playfair Display", serif;
   font-size: 35px;
   position: relative;
@@ -116,7 +126,7 @@ header {
   text-transform: uppercase;
   color: wheat;
 }
-.sec2 p {
+* .sec2 p {
   font-size: 20px;
   position: relative;
   width: 40%;
@@ -124,27 +134,24 @@ header {
   top: 10%;
   color: wheat;
 }
-.sec2 .imgSec2 {
+* .sec2 .imgSec2 {
   width: 100%;
   display: flex;
   position: relative;
   justify-content: center;
   top: 20%;
 }
-.sec2 .img1 {
+* .sec2 .img1 {
   padding: 0 10px;
 }
-
-/*FIN SECCION 2*/
-/*INICIO SECCION 3*/
-.sec3 {
+* .sec3 {
   display: flex;
   height: 700px;
   width: 100%;
   background-color: #ceccca;
   position: relative;
 }
-.sec3 .caja3 {
+* .sec3 .caja3 {
   height: 70%;
   width: 60%;
   background-image: url(../img/yoga-header22.JPG);
@@ -157,7 +164,7 @@ header {
   /*animation: backInUp;
   animation-duration: 3s;*/
 }
-.sec3 .caja4 {
+* .sec3 .caja4 {
   height: 70%;
   width: 40%;
   background-color: aliceblue;
@@ -167,7 +174,7 @@ header {
   z-index: 1;
   overflow: hidden;
 }
-.sec3 .caja4 h2 {
+* .sec3 .caja4 h2 {
   color: #fc8d38;
   text-transform: uppercase;
   width: 60%;
@@ -178,7 +185,7 @@ header {
   left: 25%;
   top: 10%;
 }
-.sec3 .caja4 p {
+* .sec3 .caja4 p {
   font-size: 20px;
   color: #fc8d38;
   width: 60%;
@@ -188,10 +195,7 @@ header {
   left: 25%;
   top: 15%;
 }
-
-/*FIN SECCION 3*/
-/*INICIO SECCION 4 MASAJE*/
-.sec4 {
+* .sec4 {
   height: 600px;
   background-image: url(../img/massage.jpg);
   background-size: cover;
@@ -200,7 +204,7 @@ header {
   text-align: center;
   justify-content: center;
 }
-.sec4 h2 {
+* .sec4 h2 {
   font-size: 35px;
   text-transform: uppercase;
   font-family: "Playfair Display", serif;
@@ -209,34 +213,25 @@ header {
   left: 60%;
   top: 15%;
 }
-.sec4 p {
+* .sec4 p {
   font-size: 20px;
   position: relative;
   width: 30%;
   left: 60%;
   top: 20%;
 }
-
-/*FIN SECCION 4 MASAJE*/
-/*INICIO SECCION 5 COMENTS*/
-.sec5 {
+* .sec5 {
   height: 500px;
   width: 100%;
   background-color: #ceccca;
   justify-content: center;
 }
-.sec5 .coment1 {
+* .sec5 .coment1 {
   height: 300px;
   width: 100%;
   background-color: #5e5e64;
 }
-
-/*FIN SECCION 5 COMENTS*/
-/*+++++++++FIN INDEX+++++++*/
-/*+++++++++FIN INDEX+++++++*/
-/*+++++++++ INICIO NOSOTROS+++++++*/
-/*+++++++++ INICIO NOSOTROS+++++++*/
-.nosotros {
+* .nosotros {
   padding-top: 15%;
   display: flex;
   height: 700px;
@@ -248,7 +243,7 @@ header {
   justify-content: center;
   flex-direction: initial;
 }
-.nosotros .secHistory {
+* .nosotros .secHistory {
   padding: 20px;
   display: flex;
   height: 40%;
@@ -258,12 +253,11 @@ header {
   flex-direction: column;
   color: #fc8d38;
 }
-.nosotros .secHistory h2 {
+* .nosotros .secHistory h2 {
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-
-.historia {
+* .historia {
   background-position: center;
   background-size: cover;
   height: 700px;
@@ -273,8 +267,7 @@ header {
   justify-content: center;
   color: #fc8d38;
 }
-
-.imgHistoria {
+* .imgHistoria {
   background-color: #5e5e64;
   background-image: url(../img/advantages-of-yoga1.jpg);
   background-position: center;
@@ -282,8 +275,7 @@ header {
   height: 60%;
   width: 60%;
 }
-
-.historia2 {
+* .historia2 {
   height: 700px;
   width: 100%;
   display: flex;
@@ -291,31 +283,24 @@ header {
   justify-content: center;
   color: #fc8d38;
 }
-
-.imgHistoria2 {
+* .imgHistoria2 {
   background-image: url(../img/about.jpg);
   background-position: center;
   background-size: cover;
   height: 60%;
   width: 60%;
 }
-
-.textHistoria {
+* .textHistoria {
   width: 80%;
 }
-
-/*+++++++++FIN NOSOTROS+++++++*/
-/*+++++++++FIN NOSOTROS+++++++*/
-/*+++++++INICIO SERVICIOS+++++++++*/
-.secServ {
+* .secServ {
   height: 700px;
   width: 100%;
   background-image: url(../img/about22.jpg);
   background-position: center;
   background-size: cover;
 }
-
-.textServ {
+* .textServ {
   width: 95%;
   padding-top: 10%;
   display: flex;
@@ -323,49 +308,39 @@ header {
   text-align: center;
   color: #fc8d38;
 }
-
-.titleServ {
+* .titleServ {
   width: 100%;
   padding: 5%;
 }
-
-.titleServ h2 {
+* .titleServ h2 {
   text-shadow: 1px 1px #323037;
 }
-
-.titleServ p {
+* .titleServ p {
   font-size: 20px;
   text-shadow: 1px 1px #323037;
 }
-
-/*+++++++FIN SERVICIOS++++++++++*/
-/*++++++++++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
-.gallery-container {
+* .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 150px;
   grid-gap: 10px;
 }
-
-.titleImg {
+* .titleImg {
   font-size: 30px;
   color: #fc8d38;
   text-align: center;
 }
-
-.gallery__item {
+* .gallery__item {
   position: relative;
 }
-
-.gallery__img {
+* .gallery__img {
   width: 100%;
   height: 100%;
   /* object-fit: cover;*/
   background-image: center;
   /*background-position: cover;*/
 }
-
-.gallery__title {
+* .gallery__title {
   position: absolute;
   bottom: 0;
   color: #fc8d38;
@@ -375,314 +350,225 @@ header {
   text-align: center;
   padding: 10px;
 }
-
-.gallery__item:nth-child(4) {
+* .gallery__item:nth-child(4) {
   grid-column-start: span 2;
 }
-
-.gallery__item:nth-child(5) {
+* .gallery__item:nth-child(5) {
   grid-row-start: span 2;
 }
-
-.gallery__item:nth-child(9) {
+* .gallery__item:nth-child(9) {
   grid-column-start: span 2;
 }
-
-.imgVideo {
+* .imgVideo {
   height: 600px;
 }
-
-.imgVideo h2 {
+* .imgVideo h2 {
   font-size: 30px;
   color: #fc8d38;
   text-align: center;
   margin-top: 5%;
 }
-
-.imgVideo iframe {
+* .imgVideo iframe {
   width: 70%;
   height: 500px;
   margin-left: 15%;
 }
-
-/*++++++++++++++++++++++++FIN IMAGENES+++++++++++++++++*/
-/*+++++++++++++++++INICIO CONTACTO+++++++++++++++*/
-.donde h2 {
+* .donde h2 {
   width: 100%;
   text-align: center;
   color: #fc8d38;
   margin-top: 3%;
   margin-bottom: 2%;
 }
-
-.donde iframe {
+* .donde iframe {
   width: 60%;
   margin-left: 20%;
   margin-bottom: 10%;
 }
-
-form {
+* form {
   padding-right: 0;
 }
-
-.form-group {
+* .form-group {
   width: 80%;
   margin-left: 10%;
   margin-bottom: 10%;
   padding-right: 0;
 }
-
-.imgCont {
+* .imgCont {
   width: 70%;
 }
-
-/*++++++++++++++++++++FIN CONTACTO++++++++++++++++*/
-/*INICIO FOOTER*/
-.secFooter {
+* .secFooter {
   background-color: #5e5e64;
   height: 200px;
   width: 100%;
 }
-
-.secFooter #contenedor6 {
+* .secFooter #contenedor6 {
   display: flex;
   justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
-.secFooter img {
+* .secFooter img {
   padding-top: 1%;
 }
-
-.secFooter ul {
+* .secFooter ul {
   list-style: none;
   display: flex;
   width: 100%;
   padding-top: 1%;
 }
-
-.secFooter ul li {
+* .secFooter ul li {
   padding: 1% 1% 0 1%;
 }
-
-.secFooter ul li a {
+* .secFooter ul li a {
   font-size: 14px;
   color: #323037;
   text-decoration: none;
 }
-
-.secFooter ul li a:hover {
+* .secFooter ul li a:hover {
   color: wheat;
 }
-
-.secFooter .diseño .contenidoPie {
+* .secFooter .diseño .contenidoPie {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
-.secFooter .diseño .contenidoPie a {
+* .secFooter .diseño .contenidoPie a {
   text-decoration: none;
   color: #fc8d38;
 }
-
-.secFooter .diseño .contenidoPie a:hover {
+* .secFooter .diseño .contenidoPie a:hover {
   text-decoration: none;
   color: #ceccca;
 }
-
-/*FIN FOOTER*/
-/*++++++++++++++++++++++++++++++++++QUERIES celular+++++++++++++++++++++++++++++++++++++++*/
-/*+++++++++++++QUERIES+++++++++++++*/
 @media screen and (max-width: 767px) {
-  .navbar img {
-    height: 60px;
-    width: 60px;
+  * {
+    /*seccion quienes somos*/
+    /*+++++FIN SECCION 2+++++*/
+    /*+++++INICIO SECCION 3+++++*/
+    /*+++++FIN SECCION 3+++++*/
+    /*+++++INICIO SECCION MASAJES+++++*/
+    /*+++++FIN SECCION MASAJES+++++*/
+    /*++++++++++++++FIN+++++++++++++++*/
+    /*++++++++++++++INDEX+++++++++++++++*/
+    /*++++++++++++++++INICIO NOSOTROS+++++++++++*/
+    /*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
+    /*+++++++++++++++INICIO SERVICIOS++++++++++++++*/
+    /*++++++++++++++++FIN SERVICIOS++++++++++++++++*/
+    /*++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
+    /*++++++++++++++++FIN IMAGENES++++++++++++++++++++*/
+    /*+++++++++++++++++contacto+++++++++++++++*/
+    /*+++++++++++++++++++fin contacto+++++++++++++++++++++*/
+    /*+++++SECCION FOOTER+++++*/
+    /*+++++FIN SECCION FOOTER+++++*/
   }
-
-  .carousel-caption {
-    top: 35%;
-  }
-
-  .carousel-caption h1 {
-    font-size: 23px;
-  }
-
-  .carousel-caption p {
-    padding: 7px;
-    font-size: 14px;
-  }
-
-  .carousel-caption .btn {
-    width: 80px;
-    height: 15px;
-  }
-
-  .carousel-caption .btn a {
-    padding: 7px;
-    width: 90px;
-    height: 15px;
-    color: wheat;
-    text-transform: uppercase;
-    border: 1px solid wheat;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-
-  .carousel-indicators li {
-    width: 10px;
-    height: 2px;
-  }
-
-  .carousel-control-prev .carousel-control-prev-icon {
-    width: 15px;
-    height: 15px;
-  }
-
-  .carousel-control-next .carousel-control-next-icon {
-    width: 15px;
-    height: 15px;
-  }
-
-  /*seccion quienes somos*/
-  .espacio {
+  * .espacio {
     height: 500px;
   }
-
-  .caja1 {
+  * .caja1 {
     width: 45%;
     height: 40%;
     left: 12%;
   }
-
-  .caja2 {
+  * .caja2 {
     width: 70%;
     height: 80%;
     right: 10%;
   }
-
-  .espacio .caja2 h2 {
+  * .espacio .caja2 h2 {
     font-size: 20px;
     top: 20%;
     left: 55%;
   }
-
-  .espacio .caja2 p {
+  * .espacio .caja2 p {
     width: 80%;
     font-size: 14px;
     top: 28%;
     left: 15%;
   }
-
-  .sec2 {
+  * .sec2 {
     height: 900px;
     align-content: center;
   }
-
-  .sec2 h2 {
+  * .sec2 h2 {
     font-size: 20px;
     left: 35%;
     top: 4%;
   }
-
-  .sec2 p {
+  * .sec2 p {
     font-size: 14px;
     width: 60%;
     left: 25%;
     top: 5%;
   }
-
-  .sec2 .imgSec2 {
+  * .sec2 .imgSec2 {
     width: 80%;
     padding: 0 10%;
     flex-direction: column;
     align-content: center;
     top: 5%;
   }
-
-  .sec2 .imgSec2 .img1 {
+  * .sec2 .imgSec2 .img1 {
     width: 250px;
     height: 250px;
     background-size: cover;
     background-position: center;
     padding-bottom: 2%;
   }
-
-  /*+++++FIN SECCION 2+++++*/
-  /*+++++INICIO SECCION 3+++++*/
-  .sec3 .caja3 {
+  * .sec3 .caja3 {
     width: 70%;
     right: 20%;
     top: 45px;
   }
-
-  .sec3 .caja4 {
+  * .sec3 .caja4 {
     height: 70%;
     width: 50%;
     right: 10%;
     top: 15%;
   }
-
-  .sec3 h2 {
+  * .sec3 h2 {
     font-size: 20px;
     top: 4%;
   }
-
-  .sec3 p {
+  * .sec3 p {
     font-size: 14px;
     top: 5%;
     width: 70%;
     left: 20%;
   }
-
-  /*+++++FIN SECCION 3+++++*/
-  /*+++++INICIO SECCION MASAJES+++++*/
-  .sec4 h2 {
+  * .sec4 h2 {
     font-size: 20px;
     width: 30%;
     left: 45%;
     top: 25%;
   }
-
-  .sec4 p {
+  * .sec4 p {
     font-size: 14px;
     position: relative;
     width: 40%;
     left: 40%;
     top: 35%;
   }
-
-  /*+++++FIN SECCION MASAJES+++++*/
-  /*++++++++++++++FIN+++++++++++++++*/
-  /*++++++++++++++INDEX+++++++++++++++*/
-  /*++++++++++++++++INICIO NOSOTROS+++++++++++*/
-  .nosotros {
+  * .nosotros {
     padding-top: 7%;
     height: 350px;
     text-align: center;
     justify-content: center;
   }
-
-  .nosotros .secHistory {
+  * .nosotros .secHistory {
     padding: 10px;
     height: 80%;
     width: 70%;
   }
-
-  .secHistory h2 {
+  * .secHistory h2 {
     font-size: 20px;
     text-transform: uppercase;
     padding-bottom: 10px;
   }
-
-  .secHistory p {
+  * .secHistory p {
     font-size: 14px;
   }
-
-  /*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
-  /*+++++++++++++++INICIO SERVICIOS++++++++++++++*/
-  .textServ {
+  * .textServ {
     width: 95%;
     padding-top: 2%;
     padding-left: 5%;
@@ -691,8 +577,7 @@ form {
     text-align: center;
     color: #fc8d38;
   }
-
-  .titleServ {
+  * .titleServ {
     width: 95%;
     padding-bottom: 2px;
     background-color: rgba(17, 1, 1, 0.5);
@@ -700,89 +585,68 @@ form {
     margin-bottom: 1%;
     margin-left: 5%;
   }
-
-  .titleServ h2 {
+  * .titleServ h2 {
     font-size: 20px;
     color: wheat;
     /*text-shadow: 1px 1px rgb(235, 232, 232);*/
   }
-
-  .titleServ p {
+  * .titleServ p {
     font-size: 14px;
     color: wheat;
     /* text-shadow: 1px 1px rgb(235, 232, 232);*/
   }
-
-  /*++++++++++++++++FIN SERVICIOS++++++++++++++++*/
-  /*++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
-  .titleImg {
+  * .titleImg {
     font-size: 20px;
     text-align: center;
     color: #323037;
   }
-
-  .gallery-container {
+  * .gallery-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .gallery__title {
+  * .gallery__title {
     font-size: 16px;
     color: white;
   }
-
-  .gallery__item:nth-child(2) {
+  * .gallery__item:nth-child(2) {
     grid-row-start: span 2;
   }
-
-  .gallery__item:nth-child(7) {
+  * .gallery__item:nth-child(7) {
     grid-row-start: span 2;
   }
-
-  .imgVideo {
+  * .imgVideo {
     height: 400px;
   }
-
-  .imgVideo h2 {
+  * .imgVideo h2 {
     font-size: 20px;
     margin-top: 5%;
     text-align: center;
     color: #323037;
   }
-
-  .imgVideo iframe {
+  * .imgVideo iframe {
     width: 90%;
     height: 300px;
     margin-left: 5%;
   }
-
-  /*++++++++++++++++FIN IMAGENES++++++++++++++++++++*/
-  /*+++++++++++++++++contacto+++++++++++++++*/
-  .donde h2 {
+  * .donde h2 {
     width: 100%;
     font-size: 20px;
     text-align: center;
   }
-
-  .imgCont {
+  * .imgCont {
     width: 70%;
     margin-left: 30%;
     margin-bottom: 10%;
   }
-
-  /*+++++++++++++++++++fin contacto+++++++++++++++++++++*/
-  /*+++++SECCION FOOTER+++++*/
-  .secFooter {
+  * .secFooter {
     height: 150px;
     display: block;
     flex-direction: column;
   }
-
-  .secFFooter #contenedor6 {
+  * .secFFooter #contenedor6 {
     justify-content: start;
   }
-
-  /*+++++FIN SECCION FOOTER+++++*/
 }
+
 /*+++++QUERIES TABLETA+++++*/
 /*+++++QUERIES TABLETA+++++*/
 /*INICIO MAIN*/
@@ -818,5 +682,52 @@ form {
 }
 
 /*FIN MAIN*/
+/*@mediaqueries*/
+@media screen and (max-width: 767px) {
+  .navbar img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .carousel-caption {
+    top: 35%;
+  }
+  .carousel-caption h1 {
+    font-size: 23px;
+  }
+  .carousel-caption p {
+    padding: 7px;
+    font-size: 14px;
+  }
+  .carousel-caption .btn {
+    width: 80px;
+    height: 15px;
+  }
+  .carousel-caption .btn a {
+    padding: 7px;
+    width: 90px;
+    height: 15px;
+    color: wheat;
+    text-transform: uppercase;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 2px;
+  }
+
+  .carousel-control-prev .carousel-control-prev-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .carousel-control-next .carousel-control-next-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
