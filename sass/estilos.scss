@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 $font1: 'Playfair Display', serif;  
+$shadow1: 1px 1px #323037;
 
 
 *{
@@ -81,6 +82,7 @@ $font1: 'Playfair Display', serif;
                 position: relative;
                 left: 48%;
                 top: 10%;
+                text-shadow: $shadow1;
             }
             p{
                 font-size: 20px;
@@ -112,6 +114,7 @@ $font1: 'Playfair Display', serif;
             top: 7%;
             text-transform: uppercase;
             color: wheat;
+            text-shadow: $shadow1;
         }
         p{
             font-size: 20px;
@@ -173,6 +176,7 @@ $font1: 'Playfair Display', serif;
                 position: relative;
                 left: 25%;
                 top: 10%;
+                text-shadow: $shadow1;
             }
             p{
                 font-size: 20px;
@@ -206,6 +210,7 @@ $font1: 'Playfair Display', serif;
             width: 30%;
             left: 60%;
             top: 15%;
+            text-shadow: $shadow1;
         }
         p{
             font-size: 20px;
@@ -262,6 +267,7 @@ $font1: 'Playfair Display', serif;
             h2{
                 text-transform: uppercase;
                 padding-bottom: 10px;
+                text-shadow: $shadow1;
             }
         }
     }
@@ -326,11 +332,11 @@ $font1: 'Playfair Display', serif;
     padding: 5%;
 }
 .titleServ h2{
-    text-shadow: 1px 1px #323037;
+    text-shadow: $shadow1;
 }
 .titleServ p{
     font-size: 20px;
-    text-shadow: 1px 1px #323037;
+    text-shadow: $shadow1;
 }
 /*+++++++FIN SERVICIOS++++++++++*/
 
@@ -399,6 +405,7 @@ $font1: 'Playfair Display', serif;
     color: #fc8d38;
     margin-top: 3%;
     margin-bottom: 2%;
+    text-shadow: $shadow1;
 }
 .donde iframe{
     width: 60%;
@@ -476,7 +483,7 @@ form{
 
     /*seccion quienes somos*/
     .espacio{
-        height: 500px;
+        height: 600px;
         .caja1{
             width: 45%;
             height: 40%;
@@ -487,14 +494,14 @@ form{
             height: 80%;
             right: 10%;
             h2{
-                font-size: 20px;
+                font-size: 22px;
                 top: 20%;
                 left: 55%;
             }
             p{
                 width: 80%;
-                font-size: 14px;
-                top: 28%;
+                font-size: 16px;
+                top: 32%;
                 left: 15%;
             }
         }
@@ -503,18 +510,19 @@ form{
         height: 900px;
         align-content: center;
         h2{
-            font-size: 20px;
+            font-size: 22px;
             left: 35%;
             top: 4%;
         }
         p{
-            font-size: 14px;
+            font-size: 16px;
             width: 60%;
             left: 25%;
             top: 5%;
         }
         .imgSec2{
-            width: 80%;
+            width: 90%;
+            margin-left: 10%;
             padding: 0 10%;
             flex-direction: column;
             align-content: center;
@@ -544,11 +552,11 @@ form{
             right: 10%;
             top: 15%;
             h2{
-                font-size: 20px;
+                font-size: 22px;
                 top: 4%; 
             }
             p{
-                font-size: 14px;
+                font-size: 16px;
                 top: 5%;
                 width: 70%;
                 left: 20%;
