@@ -1,6 +1,54 @@
 @charset "UTF-8";
 /*GOOGLE FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+.btn--red1 {
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border: 2px solid #fc8d38;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px purple;
+  font-family: cursive;
+  padding-top: 5%;
+}
+
+.btn--red2 {
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border: 2px solid #fc8d38;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px gold;
+  font-family: cursive;
+  padding-top: 5%;
+}
+
+.btn--red3 {
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border: 2px solid #fc8d38;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px green;
+  font-family: cursive;
+  padding-top: 5%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -22,6 +70,10 @@
   /*+++++++++FIN INDEX.HTML+++++++*/
   /*+++++++++ INICIO NOSOTROS.HTML+++++++*/
   /*+++++++++ INICIO NOSOTROS.HTML+++++++*/
+  /*INICIO EXTEND*/
+  /*FIN EXTEND*/
+  /*INICIO MIXINS*/
+  /*FIN MIXINS*/
   /*+++++++++FIN NOSOTROS+++++++*/
   /*+++++++++FIN NOSOTROS+++++++*/
   /*+++++++INICIO SERVICIOS+++++++++*/
@@ -297,6 +349,57 @@
 }
 * .textHistoria {
   width: 80%;
+}
+* .redsocial, * .redsocial--nueva {
+  border: 2px solid #fc8d38;
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-shadow: 1px 1px #5e5e64;
+}
+* .redsocial--nueva {
+  border-width: 3px;
+  color: #fff;
+}
+* .box {
+  background-color: green;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  text-shadow: 2px 2px #323037;
+}
+* .box {
+  height: 300px;
+  width: 90%;
+  background-color: blue;
+  background-image: url(../img/pilates1.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fc8d38;
+}
+* .box2 {
+  height: 300px;
+  width: 90%;
+  background-color: green;
+  background-image: url(../img/pilates1.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fc8d38;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  text-shadow: 2px 2px #323037;
+}
+* .mixins p {
+  margin-top: 10%;
 }
 * .secServ {
   height: 700px;
@@ -575,6 +678,18 @@
   }
   * .secHistory p {
     font-size: 14px;
+  }
+  * .frases p {
+    font-size: 14px;
+    padding: 5%;
+  }
+  * .extend p {
+    font-size: 14px;
+  }
+  * .mixins p {
+    font-size: 20px;
+    margin-top: 10%;
+    text-shadow: 2px 2px #323037;
   }
   * .textServ {
     width: 95%;
