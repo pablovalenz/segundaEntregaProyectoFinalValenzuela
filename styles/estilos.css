@@ -324,7 +324,7 @@
   justify-content: center;
   color: #fc8d38;
 }
-* .imgHistoria {
+* .historia .imgHistoria {
   background-color: #5e5e64;
   background-image: url(../img/advantages-of-yoga1.jpg);
   background-position: center;
@@ -347,7 +347,7 @@
   height: 60%;
   width: 60%;
 }
-* .textHistoria {
+* .imgHistoria2 .textHistoria {
   width: 80%;
 }
 * .redsocial, * .redsocial--nueva {
@@ -408,7 +408,7 @@
   background-position: center;
   background-size: cover;
 }
-* .textServ {
+* .secServ .textServ {
   width: 95%;
   padding-top: 10%;
   display: flex;
@@ -416,16 +416,21 @@
   text-align: center;
   color: #fc8d38;
 }
-* .titleServ {
+* .secServ .textServ .titleServ {
   width: 100%;
   padding: 5%;
 }
-* .titleServ h2 {
+* .secServ .textServ .titleServ h2 {
   text-shadow: 1px 1px #323037;
 }
-* .titleServ p {
+* .secServ .textServ .titleServ p {
   font-size: 20px;
   text-shadow: 1px 1px #323037;
+}
+* .titleImg {
+  font-size: 30px;
+  color: #fc8d38;
+  text-align: center;
 }
 * .gallery-container {
   display: grid;
@@ -433,22 +438,17 @@
   grid-auto-rows: 150px;
   grid-gap: 10px;
 }
-* .titleImg {
-  font-size: 30px;
-  color: #fc8d38;
-  text-align: center;
-}
-* .gallery__item {
+* .gallery-container .gallery__item {
   position: relative;
 }
-* .gallery__img {
+* .gallery-container .gallery__item .gallery__img {
   width: 100%;
   height: 100%;
   /* object-fit: cover;*/
   background-image: center;
   /*background-position: cover;*/
 }
-* .gallery__title {
+* .gallery-container .gallery__item .gallery__title {
   position: absolute;
   bottom: 0;
   color: #fc8d38;
@@ -458,13 +458,13 @@
   text-align: center;
   padding: 10px;
 }
-* .gallery__item:nth-child(4) {
+* .gallery-container .gallery__item .gallery__item:nth-child(4) {
   grid-column-start: span 2;
 }
-* .gallery__item:nth-child(5) {
+* .gallery-container .gallery__item .gallery__item:nth-child(5) {
   grid-row-start: span 2;
 }
-* .gallery__item:nth-child(9) {
+* .gallery-container .gallery__item .gallery__item:nth-child(9) {
   grid-column-start: span 2;
 }
 * .imgVideo {
@@ -481,7 +481,7 @@
   height: 500px;
   margin-left: 15%;
 }
-* .donde h2 {
+* .fom1 .donde h2 {
   width: 100%;
   text-align: center;
   color: #fc8d38;
@@ -489,21 +489,21 @@
   margin-bottom: 2%;
   text-shadow: 1px 1px #323037;
 }
-* .donde iframe {
+* .fom1 .donde iframe {
   width: 60%;
   margin-left: 20%;
   margin-bottom: 10%;
 }
-* form {
+* .fom1 form {
   padding-right: 0;
 }
-* .form-group {
+* .fom1 form .form-group {
   width: 80%;
   margin-left: 10%;
   margin-bottom: 10%;
   padding-right: 0;
 }
-* .imgCont {
+* .fom1 .imgCont {
   width: 70%;
 }
 * .secFooter {
@@ -511,42 +511,42 @@
   height: 200px;
   width: 100%;
 }
-* .secFooter #contenedor6 {
+* .secFooter .secFooter #contenedor6 {
   display: flex;
   justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-* .secFooter img {
+* .secFooter .secFooter #contenedor6 img {
   padding-top: 1%;
 }
-* .secFooter ul {
+* .secFooter .secFooter #contenedor6 ul {
   list-style: none;
   display: flex;
   width: 100%;
   padding-top: 1%;
 }
-* .secFooter ul li {
+* .secFooter .secFooter #contenedor6 li {
   padding: 1% 1% 0 1%;
 }
-* .secFooter ul li a {
+* .secFooter .secFooter #contenedor6 li a {
   font-size: 14px;
   color: #323037;
   text-decoration: none;
 }
-* .secFooter ul li a:hover {
+* .secFooter .secFooter #contenedor6 li a:hover {
   color: wheat;
 }
-* .secFooter .diseño .contenidoPie {
+* .diseño .contenidoPie {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-* .secFooter .diseño .contenidoPie a {
+* .diseño .contenidoPie a {
   text-decoration: none;
   color: #fc8d38;
 }
-* .secFooter .diseño .contenidoPie a:hover {
+* .diseño .contenidoPie a:hover {
   text-decoration: none;
   color: #ceccca;
 }
@@ -784,6 +784,7 @@
   text-transform: uppercase;
   animation: bounceInRight;
   animation-duration: 3s;
+  text-shadow: 2px 2px #323037;
 }
 .carousel-caption p {
   padding: 20px;

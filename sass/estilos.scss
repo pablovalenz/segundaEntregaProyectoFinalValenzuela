@@ -306,15 +306,16 @@ $redes: (
     flex-direction: column;
     justify-content: center;
     color: #fc8d38;
+    .imgHistoria{
+        background-color: #5e5e64;
+        background-image: url(../img/advantages-of-yoga1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 60%;
+        width: 60%;
+    }
 }
-.imgHistoria{
-    background-color: #5e5e64;
-    background-image: url(../img/advantages-of-yoga1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 60%;
-    width: 60%;
-}
+
 .historia2{
     height: 700px;
     width: 100%;
@@ -329,10 +330,11 @@ $redes: (
     background-size: cover;
     height: 60%;
     width: 60%;
+    .textHistoria{
+        width: 80%;
+    }
 }
-.textHistoria{
-    width: 80%;
-}
+
 
 /*INICIO EXTEND*/
 
@@ -403,111 +405,125 @@ $redes: (
     background-image: url(../img/about22.jpg);
     background-position: center;
     background-size: cover;
+    .textServ{
+        width: 95%;
+        padding-top: 10%;
+        display: flex;
+        flex-direction: center;
+        text-align: center;
+        color: #fc8d38;
+        .titleServ{
+            width: 100%;
+            padding: 5%;
+            h2{
+                text-shadow: $shadow1;
+            }
+            p{
+                font-size: 20px;
+                text-shadow: $shadow1;
+            }
+        }
+    }
 }
-.textServ{
-    width: 95%;
-    padding-top: 10%;
-    display: flex;
-    flex-direction: center;
-    text-align: center;
-    color: #fc8d38;
-}
-.titleServ{
-    width: 100%;
-    padding: 5%;
-}
-.titleServ h2{
-    text-shadow: $shadow1;
-}
-.titleServ p{
-    font-size: 20px;
-    text-shadow: $shadow1;
-}
+
+
+
 /*+++++++FIN SERVICIOS++++++++++*/
 
 
 /*++++++++++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
-.gallery-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px;
-    grid-gap: 10px;
-}
 .titleImg{
     font-size: 30px;
     color: #fc8d38;
     text-align: center;
 }
-.gallery__item{
-    position: relative;
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 10px;
+    .gallery__item{
+        position: relative;
+        .gallery__img{
+            width: 100%;
+            height: 100%;
+            /* object-fit: cover;*/
+            background-image: center;
+            /*background-position: cover;*/
+        }
+        .gallery__title{
+            position: absolute;
+            bottom: 0;
+            color: #fc8d38;
+            background: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,1));
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            padding: 10px;
+        }
+        
+
+        .gallery__item:nth-child(4){
+            grid-column-start: span 2;
+        }
+        .gallery__item:nth-child(5){
+            grid-row-start: span 2;
+        }
+        .gallery__item:nth-child(9){
+            grid-column-start: span 2;
+        }
+    }
 }
-.gallery__img{
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover;*/
-    background-image: center;
-    /*background-position: cover;*/
-}
-.gallery__title{
-    position: absolute;
-    bottom: 0;
-    color: #fc8d38;
-    background: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,1));
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 10px;
-}
-.gallery__item:nth-child(4){
-    grid-column-start: span 2;
-}
-.gallery__item:nth-child(5){
-    grid-row-start: span 2;
-}
-.gallery__item:nth-child(9){
-    grid-column-start: span 2;
-}
+
+
+
 .imgVideo{
     height: 600px;
+    h2{
+        font-size: 30px;
+        color: #fc8d38;
+        text-align: center;
+        margin-top: 5%;
+    }
+    iframe{
+        width: 70%;
+        height: 500px;
+        margin-left: 15%;
+     }
 }
-.imgVideo h2{
-    font-size: 30px;
-    color: #fc8d38;
-    text-align: center;
-    margin-top: 5%;
-}
-.imgVideo iframe{
-   width: 70%;
-   height: 500px;
-   margin-left: 15%;
-}
+
 /*++++++++++++++++++++++++FIN IMAGENES+++++++++++++++++*/
 
 /*+++++++++++++++++INICIO CONTACTO+++++++++++++++*/
-.donde h2{
-    width: 100%;
-    text-align: center;
-    color: #fc8d38;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    text-shadow: $shadow1;
-}
-.donde iframe{
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 10%;
-}
-form{
-    padding-right: 0;
-}
-.form-group{
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    padding-right: 0;
-}
-.imgCont{
-    width: 70%;
+.fom1{
+    .donde {
+        h2{
+            width: 100%;
+            text-align: center;
+            color: #fc8d38;
+            margin-top: 3%;
+            margin-bottom: 2%;
+            text-shadow: $shadow1;
+        }
+        iframe{
+            width: 60%;
+            margin-left: 20%;
+            margin-bottom: 10%;
+        }
+    }
+    form{
+        padding-right: 0;
+        .form-group{
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 10%;
+            padding-right: 0;
+        }
+    }
+    
+    .imgCont{
+        width: 70%;
+    }
 }
 /*++++++++++++++++++++FIN CONTACTO++++++++++++++++*/
 
@@ -518,46 +534,48 @@ form{
     background-color: #5e5e64;
     height: 200px;
     width: 100%;
-}
-.secFooter #contenedor6{
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-.secFooter img{
-    padding-top: 1%;
-}
-.secFooter ul{
-    list-style: none;
-    display: flex;
-    width: 100%;
-    padding-top: 1%;
-}
-.secFooter ul li{
-    padding: 1% 1% 0 1%;
-}
-.secFooter ul li a{
-    font-size: 14px;
-    color: #323037;
-    text-decoration: none;
-}
-.secFooter ul li a:hover{
-    color: wheat;
-}
-.secFooter .diseño .contenidoPie{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.secFooter .diseño .contenidoPie a{
-    text-decoration: none;
-    color: #fc8d38;
-}
-.secFooter .diseño .contenidoPie a:hover{
-    text-decoration: none;
-    color: #ceccca;
-}
+    .secFooter #contenedor6{
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        img{
+            padding-top: 1%;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            width: 100%;
+            padding-top: 1%;
+        }
+        li{
+            padding: 1% 1% 0 1%;
+            a{
+                font-size: 14px;
+                color: #323037;
+                text-decoration: none;
+            }
+            a:hover{
+                color: wheat;
+            }
+        }
+    }
+} 
+    .diseño {
+        .contenidoPie{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color: #fc8d38;
+            }
+            a:hover{
+                text-decoration: none;
+                color: #ceccca;
+            }
+        }
+    }
 /*FIN FOOTER*/
 
 /*++++++++++++++++++++++++++++++++++QUERIES celular+++++++++++++++++++++++++++++++++++++++*/
