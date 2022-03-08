@@ -110,6 +110,9 @@
   color: wheat;
 }
 * .espacio {
+  background-image: url(../img/amapolas.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
   height: 700px;
   width: 100%;
@@ -199,6 +202,9 @@
   padding: 0 10px;
 }
 * .sec3 {
+  background-image: url(../img/amapolas2.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
   height: 700px;
   width: 100%;
@@ -458,13 +464,13 @@
   text-align: center;
   padding: 10px;
 }
-* .gallery-container .gallery__item .gallery__item:nth-child(4) {
+* .gallery-container .gallery__item:nth-child(4) {
   grid-column-start: span 2;
 }
-* .gallery-container .gallery__item .gallery__item:nth-child(5) {
+* .gallery-container .gallery__item:nth-child(5) {
   grid-row-start: span 2;
 }
-* .gallery-container .gallery__item .gallery__item:nth-child(9) {
+* .gallery-container .gallery__item:nth-child(9) {
   grid-column-start: span 2;
 }
 * .imgVideo {

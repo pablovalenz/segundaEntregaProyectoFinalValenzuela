@@ -70,6 +70,9 @@ $redes: (
     /*INICIO SECCION ESPACIO*/
 
     .espacio{
+        background-image: url(../img/amapolas.jpg);
+        background-position: center;
+        background-size: cover;
         display: flex;
         height: 700px;
         width: 100%;
@@ -165,6 +168,9 @@ $redes: (
 
 /*INICIO SECCION 3*/
     .sec3{
+        background-image: url(../img/amapolas2.jpg);
+        background-position: center;
+        background-size: cover;
         display: flex;
         height: 700px;
         width: 100%;
@@ -463,15 +469,16 @@ $redes: (
         }
         
 
-        .gallery__item:nth-child(4){
-            grid-column-start: span 2;
-        }
-        .gallery__item:nth-child(5){
-            grid-row-start: span 2;
-        }
-        .gallery__item:nth-child(9){
-            grid-column-start: span 2;
-        }
+        
+    }
+    .gallery__item:nth-child(4){
+        grid-column-start: span 2;
+    }
+    .gallery__item:nth-child(5){
+        grid-row-start: span 2;
+    }
+    .gallery__item:nth-child(9){
+        grid-column-start: span 2;
     }
 }
 
