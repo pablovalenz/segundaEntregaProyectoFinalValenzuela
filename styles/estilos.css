@@ -517,30 +517,30 @@
   height: 200px;
   width: 100%;
 }
-* .secFooter .secFooter #contenedor6 {
+* .secFooter #contenedor6 {
   display: flex;
   justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
 }
-* .secFooter .secFooter #contenedor6 img {
+* .secFooter #contenedor6 a img {
   padding-top: 1%;
 }
-* .secFooter .secFooter #contenedor6 ul {
+* .secFooter #contenedor6 ul {
   list-style: none;
   display: flex;
   width: 100%;
   padding-top: 1%;
 }
-* .secFooter .secFooter #contenedor6 li {
+* .secFooter #contenedor6 li {
   padding: 1% 1% 0 1%;
 }
-* .secFooter .secFooter #contenedor6 li a {
+* .secFooter #contenedor6 li a {
   font-size: 14px;
   color: #323037;
   text-decoration: none;
 }
-* .secFooter .secFooter #contenedor6 li a:hover {
+* .secFooter #contenedor6 li a:hover {
   color: wheat;
 }
 * .diseño .contenidoPie {

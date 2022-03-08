@@ -541,13 +541,15 @@ $redes: (
     background-color: #5e5e64;
     height: 200px;
     width: 100%;
-    .secFooter #contenedor6{
+    #contenedor6{
         display: flex;
         justify-content: center;
         padding-top: 2%;
         padding-bottom: 2%;
-        img{
-            padding-top: 1%;
+        a{
+            img{
+                padding-top: 1%;
+            }
         }
         ul{
             list-style: none;
