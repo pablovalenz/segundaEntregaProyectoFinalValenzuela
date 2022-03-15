@@ -120,18 +120,28 @@
   position: relative;
 }
 * .espacio .caja1 {
-  height: 70%;
-  width: 37%;
-  background-image: url(../img/bg2.jpg);
+  height: 72%;
+  width: 45%;
+  background-image: url(../img/romisinfon.png);
   background-color: aqua;
   background-size: cover;
   background-position: center;
   position: absolute;
-  right: 50%;
+  right: 53%;
   top: 40px;
   z-index: 2;
-  /*animation: backInUp;
-  animation-duration: 3s;*/
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translate(8%, 1%);
+  }
+  50% {
+    transform: translate(8%, 10%);
+  }
+  100% {
+    transform: translate(8%, 1%);
+  }
 }
 * .espacio .caja2 {
   height: 70%;
@@ -591,13 +601,13 @@
     right: 10%;
   }
   * .espacio .caja2 h2 {
-    font-size: 22px;
+    font-size: 25px;
     top: 20%;
     left: 55%;
   }
   * .espacio .caja2 p {
     width: 80%;
-    font-size: 16px;
+    font-size: 18px;
     top: 32%;
     left: 15%;
   }
@@ -606,12 +616,12 @@
     align-content: center;
   }
   * .sec2 h2 {
-    font-size: 22px;
+    font-size: 25px;
     left: 35%;
     top: 4%;
   }
   * .sec2 p {
-    font-size: 16px;
+    font-size: 18px;
     width: 60%;
     left: 25%;
     top: 5%;
@@ -643,11 +653,11 @@
     top: 15%;
   }
   * .sec3 .caja4 h2 {
-    font-size: 22px;
+    font-size: 25px;
     top: 4%;
   }
   * .sec3 .caja4 p {
-    font-size: 16px;
+    font-size: 18px;
     top: 5%;
     width: 70%;
     left: 20%;
@@ -678,15 +688,15 @@
     width: 70%;
   }
   * .secHistory h2 {
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     padding-bottom: 10px;
   }
   * .secHistory p {
-    font-size: 14px;
+    font-size: 18px;
   }
   * .frases p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 5%;
   }
   * .extend p {

@@ -79,19 +79,29 @@ $redes: (
         background-color: #ceccca;
         position: relative;
         .caja1{
-            height: 70%;
-            width: 37%;
-            background-image: url(../img/bg2.jpg);
+            height: 72%;
+            width: 45%;
+            background-image: url(../img/romisinfon.png);
             background-color: aqua;
             background-size: cover;
             background-position: center;
             position: absolute; 
-            right: 50%; 
+            right: 53%; 
             top: 40px;
             z-index: 2;
-            /*animation: backInUp;
-            animation-duration: 3s;*/
+            animation: float 4s ease-in-out infinite;
         }
+        @keyframes float{
+            0%{
+              transform: translate(8%, 1%);
+            }
+            50%{
+              transform: translate(8%, 10%);
+            }
+            100%{
+              transform: translate(8%, 1%);
+            }
+          }
         .caja2{
             height: 70%;
             width: 60%;
@@ -608,13 +618,13 @@ $redes: (
             height: 80%;
             right: 10%;
             h2{
-                font-size: 22px;
+                font-size: 25px;
                 top: 20%;
                 left: 55%;
             }
             p{
                 width: 80%;
-                font-size: 16px;
+                font-size: 18px;
                 top: 32%;
                 left: 15%;
             }
@@ -624,12 +634,12 @@ $redes: (
         height: 900px;
         align-content: center;
         h2{
-            font-size: 22px;
+            font-size: 25px;
             left: 35%;
             top: 4%;
         }
         p{
-            font-size: 16px;
+            font-size: 18px;
             width: 60%;
             left: 25%;
             top: 5%;
@@ -666,11 +676,11 @@ $redes: (
             right: 10%;
             top: 15%;
             h2{
-                font-size: 22px;
+                font-size: 25px;
                 top: 4%; 
             }
             p{
-                font-size: 16px;
+                font-size: 18px;
                 top: 5%;
                 width: 70%;
                 left: 20%;
@@ -717,16 +727,16 @@ height: 80%;
 width: 70%;
 }
 .secHistory h2{
-    font-size: 20px;
+    font-size: 25px;
 text-transform: uppercase;
 padding-bottom: 10px;
 }
 .secHistory p{
-    font-size: 14px;
+    font-size: 18px;
 }
 .frases{
     p{
-        font-size: 14px;
+        font-size: 16px;
         padding: 5%;
     }
 }
