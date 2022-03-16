@@ -123,7 +123,6 @@
   height: 72%;
   width: 45%;
   background-image: url(../img/romisinfon.png);
-  background-color: aqua;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -511,16 +510,29 @@
   margin-bottom: 10%;
 }
 * .cont .form1 form {
-  padding-right: 0;
+  margin-right: 0;
+  width: 80%;
 }
 * .cont .form1 form .form-group {
   width: 80%;
   margin-left: 10%;
   margin-bottom: 10%;
   padding-right: 0;
+  margin-right: 0;
+}
+* .cont .form1 form .form-group .formbtn {
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  background-color: #fc8d38;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: white;
 }
 * .cont .form1 .imgCont {
-  width: 70%;
+  width: 50%;
+  padding: 0%;
+  margin-left: 20%;
 }
 * .secFooter {
   background-color: #5e5e64;
@@ -591,9 +603,10 @@
     height: 600px;
   }
   * .espacio .caja1 {
-    width: 45%;
+    background-image: url(../img/romisinfon2.png);
+    width: 50%;
     height: 40%;
-    left: 12%;
+    left: 5%;
   }
   * .espacio .caja2 {
     width: 70%;
